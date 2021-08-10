@@ -80,7 +80,7 @@
                                 },
                                 {
                                     "Id": {
-                                        "GroupId": "{E3CAE630-8938-4022-86B3-78B249BD1595}"
+                                        "GroupId": "{706A5207-C8D0-4BB7-BAD0-35485A5FA678}"
                                     },
                                     "Name": "None",
                                     "Group": {
@@ -90,7 +90,7 @@
                                 },
                                 {
                                     "Id": {
-                                        "GroupId": "{5045BA4B-CBCE-4160-A9ED-F0794FA4309F}"
+                                        "GroupId": "{E623B1C9-35AE-4DC3-A626-D0FF5AFDFB7E}"
                                     },
                                     "Name": "All_NoTouchBend",
                                     "Group": {
