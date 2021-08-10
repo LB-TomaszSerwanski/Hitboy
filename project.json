@@ -1,0 +1,15 @@
+{
+    "project_name": "Hitboy",
+    "origin": "The primary repo for Hitboy goes here: i.e. http://www.mydomain.com",
+    "license": "What license Hitboy uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "Hitboy",
+    "summary": "A short description of Hitboy.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Hitboy"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-install"
+}

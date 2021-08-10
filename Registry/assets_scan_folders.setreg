@@ -1,0 +1,14 @@
+{
+    "Amazon":
+    {
+        "Hitboy.Assets":
+        {
+            "SourcePaths":
+            [
+                "Assets",
+                "ShaderLib",
+                "Shaders"
+            ]
+        }
+    }
+}
