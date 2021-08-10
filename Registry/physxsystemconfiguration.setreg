@@ -97,9 +97,25 @@
                                         "Mask": 9223372036854775807
                                     },
                                     "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{0C13A6CB-4A87-4EA7-8E7F-751180B9B0C0}"
+                                    },
+                                    "Name": "Enemy",
+                                    "Group": {
+                                        "Mask": 9223372036854775805
+                                    }
                                 }
                             ]
                         }
+                    },
+                    "MaterialLibrary": {
+                        "assetId": {
+                            "guid": "{322939E6-0FF1-57B7-8D5F-E4486A2E503D}"
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "physics/surfacetypemateriallibrary.physmaterial"
                     }
                 }
             }
