@@ -125,6 +125,19 @@
             "Id": "Entity_[1159459292531]",
             "Name": "Ground",
             "Components": {
+                "Component_[10146478643578502840]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 10146478643578502840,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                40.0,
+                                40.0,
+                                0.10000000149011612
+                            ]
+                        }
+                    }
+                },
                 "Component_[11701138785793981042]": {
                     "$type": "SelectionComponent",
                     "Id": 11701138785793981042
@@ -154,13 +167,34 @@
                     "$type": "EditorMaterialComponent",
                     "Id": 5182430712893438093,
                     "materialSlots": [
-                        {}
+                        {
+                            "id": {
+                                "materialSlotStableId": 803645540
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 803645540
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                            }
+                        }
                     ],
                     "materialSlotsByLod": [
                         [
                             {
                                 "id": {
-                                    "lodIndex": 0
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 803645540
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                        "subId": 803645540
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
                                 }
                             }
                         ]
@@ -192,6 +226,27 @@
                 "Component_[7090012899106946164]": {
                     "$type": "EditorLockComponent",
                     "Id": 7090012899106946164
+                },
+                "Component_[8806276939712940406]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 8806276939712940406,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                40.0,
+                                40.0,
+                                0.10000000149011612
+                            ]
+                        }
+                    ]
                 },
                 "Component_[9410832619875640998]": {
                     "$type": "EditorVisibilityComponent",
@@ -569,6 +624,682 @@
                 "Component_[931091830724002070]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 931091830724002070
+                }
+            }
+        },
+        "Entity_[484272027614]": {
+            "Id": "Entity_[484272027614]",
+            "Name": "charactermedium",
+            "Components": {
+                "Component_[10452510340814779955]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10452510340814779955
+                },
+                "Component_[11458595517959004084]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11458595517959004084
+                },
+                "Component_[11546961724720109955]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11546961724720109955,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.5693018436431886,
+                            0.6860485076904297,
+                            -0.0718848705291748
+                        ]
+                    }
+                },
+                "Component_[13674653715893685084]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13674653715893685084
+                },
+                "Component_[1404117258763843068]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1404117258763843068
+                },
+                "Component_[16992739493435019703]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16992739493435019703
+                },
+                "Component_[18383870389195303121]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 18383870389195303121,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{FD143EA9-3422-5210-BFC9-F716AFA6F7E3}",
+                            "subId": 4243276464
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/characters/model/charactermedium.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                },
+                "Component_[470976631679178373]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 470976631679178373
+                },
+                "Component_[6020225919357531563]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6020225919357531563,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{6A0ABB87-AD39-51C8-A714-576C8C2EEF1C}"
+                                        },
+                                        "assetHint": "assets/characters/skins/criminalmalea.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{6A0ABB87-AD39-51C8-A714-576C8C2EEF1C}"
+                            },
+                            "assetHint": "assets/characters/skins/criminalmalea.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3595497252
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD143EA9-3422-5210-BFC9-F716AFA6F7E3}",
+                                    "subId": 3595497252
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "assets/characters/model/charactermedium_skin_7454149190160936740.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3595497252
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD143EA9-3422-5210-BFC9-F716AFA6F7E3}",
+                                        "subId": 3595497252
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "assets/characters/model/charactermedium_skin_7454149190160936740.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[6591385536283705724]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6591385536283705724
+                },
+                "Component_[7294963473633565339]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7294963473633565339
+                },
+                "Component_[7694563337598145058]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7694563337598145058
+                }
+            }
+        },
+        "Entity_[484442824769]": {
+            "Id": "Entity_[484442824769]",
+            "Name": "blasterg",
+            "Components": {
+                "Component_[1294287461882434735]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1294287461882434735
+                },
+                "Component_[15773959633207552390]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15773959633207552390,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            3.6315736770629885,
+                            -11.987969398498536,
+                            0.9680335521697998
+                        ]
+                    }
+                },
+                "Component_[1690615409121363298]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1690615409121363298
+                },
+                "Component_[2670075152575157735]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2670075152575157735
+                },
+                "Component_[3202347737809730512]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 3202347737809730512,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{4F9309EF-9DCD-5251-8DA8-7DC898118059}",
+                            "subId": 679346683
+                        },
+                        "assetHint": "assets/characters/blasters/models/fbx format/blasterg.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[330505115898309339]": {
+                    "$type": "SelectionComponent",
+                    "Id": 330505115898309339
+                },
+                "Component_[3526811704103195641]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3526811704103195641
+                },
+                "Component_[3746430441980127964]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3746430441980127964
+                },
+                "Component_[6883369502231283713]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6883369502231283713
+                },
+                "Component_[7531259478093583346]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7531259478093583346
+                },
+                "Component_[8827769437311498428]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8827769437311498428
+                }
+            }
+        },
+        "Entity_[488566994910]": {
+            "Id": "Entity_[488566994910]",
+            "Name": "charactermedium",
+            "Components": {
+                "Component_[11253253657227827720]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 11253253657227827720,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{FD143EA9-3422-5210-BFC9-F716AFA6F7E3}",
+                            "subId": 4243276464
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/characters/model/charactermedium.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                },
+                "Component_[12665518345741544242]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12665518345741544242,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -6.302384376525879,
+                            0.5658187866210938,
+                            -0.056298255920410159
+                        ]
+                    }
+                },
+                "Component_[13539620942967737356]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13539620942967737356
+                },
+                "Component_[13686082650939075635]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13686082650939075635
+                },
+                "Component_[18285309962869460269]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18285309962869460269
+                },
+                "Component_[3192117734523623798]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3192117734523623798,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{C51ED107-86D1-5903-A527-38E086BB6C1F}"
+                                        },
+                                        "assetHint": "assets/characters/skins/survivormaleb.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{C51ED107-86D1-5903-A527-38E086BB6C1F}"
+                            },
+                            "assetHint": "assets/characters/skins/survivormaleb.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3595497252
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD143EA9-3422-5210-BFC9-F716AFA6F7E3}",
+                                    "subId": 3595497252
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "assets/characters/model/charactermedium_skin_7454149190160936740.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3595497252
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD143EA9-3422-5210-BFC9-F716AFA6F7E3}",
+                                        "subId": 3595497252
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "assets/characters/model/charactermedium_skin_7454149190160936740.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[4856661103234532499]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4856661103234532499
+                },
+                "Component_[4877796539359896903]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4877796539359896903
+                },
+                "Component_[5286144150516907690]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5286144150516907690
+                },
+                "Component_[8746282940586977852]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8746282940586977852
+                },
+                "Component_[897968529087596649]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 897968529087596649
+                },
+                "Component_[9068535919646191068]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9068535919646191068
+                }
+            }
+        },
+        "Entity_[488737792065]": {
+            "Id": "Entity_[488737792065]",
+            "Name": "blasterf",
+            "Components": {
+                "Component_[12696807237535663073]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12696807237535663073,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            3.9386253356933595,
+                            -13.15894603729248,
+                            0.8710845112800598
+                        ]
+                    }
+                },
+                "Component_[14104025135445608642]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14104025135445608642
+                },
+                "Component_[14444337182284213206]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14444337182284213206
+                },
+                "Component_[14889434031308589426]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14889434031308589426
+                },
+                "Component_[15587996047368986805]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15587996047368986805
+                },
+                "Component_[16442977028188772038]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16442977028188772038
+                },
+                "Component_[17461908769111832695]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17461908769111832695
+                },
+                "Component_[2487845408117360105]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2487845408117360105
+                },
+                "Component_[5666262337973530351]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5666262337973530351
+                },
+                "Component_[5904759644483430614]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5904759644483430614
+                },
+                "Component_[8029833930918405624]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 8029833930918405624,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{B0BD6CEC-2E2B-560A-A7BD-2C97212BCE47}",
+                            "subId": 1119892401
+                        },
+                        "assetHint": "assets/characters/blasters/models/fbx format/blasterf.actor"
+                    },
+                    "AttachmentTarget": ""
+                }
+            }
+        },
+        "Entity_[493032759361]": {
+            "Id": "Entity_[493032759361]",
+            "Name": "blastere",
+            "Components": {
+                "Component_[10157325251310937631]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10157325251310937631
+                },
+                "Component_[15345057353534106844]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15345057353534106844
+                },
+                "Component_[16336179547128796482]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16336179547128796482
+                },
+                "Component_[18282167500929577613]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18282167500929577613
+                },
+                "Component_[4034525069264767549]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4034525069264767549
+                },
+                "Component_[7246025573649384163]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7246025573649384163
+                },
+                "Component_[8710306616245256266]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8710306616245256266
+                },
+                "Component_[8748754801261216560]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 8748754801261216560,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{FD1E8263-74B1-52E1-A3A6-9D320437A1EA}",
+                            "subId": 1261316609
+                        },
+                        "assetHint": "assets/characters/blasters/models/fbx format/blastere.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[9361484004614163100]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9361484004614163100
+                },
+                "Component_[9725150160080870720]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9725150160080870720,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.002312660217285,
+                            -14.733229637145996,
+                            0.8388596177101135
+                        ]
+                    }
+                },
+                "Component_[977473263697848782]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 977473263697848782
+                }
+            }
+        },
+        "Entity_[497327726657]": {
+            "Id": "Entity_[497327726657]",
+            "Name": "blasterc",
+            "Components": {
+                "Component_[10035069310296534465]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10035069310296534465
+                },
+                "Component_[13409453364015190560]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13409453364015190560
+                },
+                "Component_[14347677331466937268]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 14347677331466937268,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{B1B487F1-40AA-56A6-A72F-C798874C420D}",
+                            "subId": 640897542
+                        },
+                        "assetHint": "assets/characters/blasters/models/fbx format/blasterc.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[1639779459751577705]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1639779459751577705
+                },
+                "Component_[17199708911520222286]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17199708911520222286
+                },
+                "Component_[2773007946041778188]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2773007946041778188
+                },
+                "Component_[2786257642275791673]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2786257642275791673
+                },
+                "Component_[4670237165910009166]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4670237165910009166
+                },
+                "Component_[4747559119055859216]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4747559119055859216
+                },
+                "Component_[7319945786393852784]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7319945786393852784,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.01394510269165,
+                            -14.336471557617188,
+                            1.1930677890777588
+                        ]
+                    }
+                },
+                "Component_[961497011058721675]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 961497011058721675
+                }
+            }
+        },
+        "Entity_[501451896798]": {
+            "Id": "Entity_[501451896798]",
+            "Name": "bed",
+            "Components": {
+                "Component_[11783373955851748097]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11783373955851748097
+                },
+                "Component_[12016892231066976770]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12016892231066976770
+                },
+                "Component_[12779845505537957935]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12779845505537957935,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    }
+                },
+                "Component_[13056264180327546020]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13056264180327546020
+                },
+                "Component_[132458780715983962]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 132458780715983962
+                },
+                "Component_[13894143083159931622]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13894143083159931622
+                },
+                "Component_[14261027214714036313]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14261027214714036313
+                },
+                "Component_[17231551682772712877]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 17231551682772712877,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[4264447094372291147]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4264447094372291147
+                },
+                "Component_[5663717163671841848]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5663717163671841848,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -9.752216339111329,
+                            -1.3023241758346558,
+                            0.24661219120025636
+                        ]
+                    }
+                },
+                "Component_[6337488402807390664]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6337488402807390664
+                },
+                "Component_[6469723150197038414]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6469723150197038414,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1B9BF328-F476-5C61-8950-C51BE7361612}",
+                                    "subId": 273153279
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "assets/environment/models/fbx format/bed.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7422189016150324401]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7422189016150324401
+                }
+            }
+        },
+        "Entity_[501622693953]": {
+            "Id": "Entity_[501622693953]",
+            "Name": "blasterk",
+            "Components": {
+                "Component_[10234738267583080299]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10234738267583080299
+                },
+                "Component_[15641258088631451517]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15641258088631451517
+                },
+                "Component_[2273516664629802344]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2273516664629802344
+                },
+                "Component_[2847241799707193023]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2847241799707193023
+                },
+                "Component_[2983837310794795678]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2983837310794795678
+                },
+                "Component_[3248452290433241436]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3248452290433241436,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.15753698348999,
+                            -12.166792869567871,
+                            1.4608526229858399
+                        ]
+                    }
+                },
+                "Component_[552601096645255918]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 552601096645255918
+                },
+                "Component_[6185516868217189382]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6185516868217189382
+                },
+                "Component_[7922004786624168621]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7922004786624168621
+                },
+                "Component_[8260018717659905524]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8260018717659905524
+                },
+                "Component_[9560869082856009194]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 9560869082856009194,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{311547E7-8B09-5CA7-BFAD-9934158BFD03}",
+                            "subId": 227902243
+                        },
+                        "assetHint": "assets/characters/blasters/models/fbx format/blasterk.actor"
+                    },
+                    "AttachmentTarget": ""
                 }
             }
         }

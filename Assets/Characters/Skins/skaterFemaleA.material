@@ -1,0 +1,11 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Assets/Characters/Skins/skaterFemaleA.png"
+        }
+    }
+}

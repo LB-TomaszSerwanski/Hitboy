@@ -1,0 +1,178 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "characterMedium",
+            "selectedRootBone": "RootNode.Root",
+            "id": "{B042EBFC-61D1-5FD4-8A72-F7F335C151B0}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MetaDataRule",
+                        "metaData": "AdjustActor -actorID $(ACTORID) -name \"characterMedium\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -motionExtractionNodeName \"Root\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4D6E7091-D329-584B-838F-D91D249F3076}",
+            "name": "characterMedium",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Root",
+                    "RootNode.characterMedium",
+                    "RootNode.Root.LeftFootCtrl",
+                    "RootNode.Root.RightFootCtrl",
+                    "RootNode.Root.HipsCtrl",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll",
+                    "RootNode.Root.LeftFootCtrl.LeftFootRollCtrl",
+                    "RootNode.Root.LeftFootCtrl.LeftKneeCtrl",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll",
+                    "RootNode.Root.RightFootCtrl.RightFootRollCtrl",
+                    "RootNode.Root.RightFootCtrl.RightKneeCtrl",
+                    "RootNode.Root.HipsCtrl.Hips",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll.LeftToeRoll",
+                    "RootNode.Root.LeftFootCtrl.LeftFootRollCtrl.LeftFootRollCtrl_end",
+                    "RootNode.Root.LeftFootCtrl.LeftKneeCtrl.LeftKneeCtrl_end",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll.RightToeRoll",
+                    "RootNode.Root.RightFootCtrl.RightFootRollCtrl.RightFootRollCtrl_end",
+                    "RootNode.Root.RightFootCtrl.RightKneeCtrl.RightKneeCtrl_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll.LeftToeRoll.LeftFootIK",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll.RightToeRoll.RightFootIK",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll.LeftToeRoll.LeftFootIK.LeftFootIK_end",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll.RightToeRoll.RightFootIK.RightFootIK_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg.LeftFoot",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg.RightFoot",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.Neck",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToes",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg.RightFoot.RightToes",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.Neck.Head",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToes.LeftToes_end",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg.RightFoot.RightToes.RightToes_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.Neck.Head.Head_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2.LeftHandThumb2_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2.RightHandThumb2_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3.LeftHandIndex3_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3.RightHandIndex3_end"
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "characterMedium",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Root",
+                    "RootNode.characterMedium",
+                    "RootNode.Root.LeftFootCtrl",
+                    "RootNode.Root.RightFootCtrl",
+                    "RootNode.Root.HipsCtrl",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll",
+                    "RootNode.Root.LeftFootCtrl.LeftFootRollCtrl",
+                    "RootNode.Root.LeftFootCtrl.LeftKneeCtrl",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll",
+                    "RootNode.Root.RightFootCtrl.RightFootRollCtrl",
+                    "RootNode.Root.RightFootCtrl.RightKneeCtrl",
+                    "RootNode.Root.HipsCtrl.Hips",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll.LeftToeRoll",
+                    "RootNode.Root.LeftFootCtrl.LeftFootRollCtrl.LeftFootRollCtrl_end",
+                    "RootNode.Root.LeftFootCtrl.LeftKneeCtrl.LeftKneeCtrl_end",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll.RightToeRoll",
+                    "RootNode.Root.RightFootCtrl.RightFootRollCtrl.RightFootRollCtrl_end",
+                    "RootNode.Root.RightFootCtrl.RightKneeCtrl.RightKneeCtrl_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll.LeftToeRoll.LeftFootIK",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll.RightToeRoll.RightFootIK",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg",
+                    "RootNode.Root.LeftFootCtrl.LeftHeelRoll.LeftToeRoll.LeftFootIK.LeftFootIK_end",
+                    "RootNode.Root.RightFootCtrl.RightHeelRoll.RightToeRoll.RightFootIK.RightFootIK_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg.LeftFoot",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg.RightFoot",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.Neck",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToes",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg.RightFoot.RightToes",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.Neck.Head",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm",
+                    "RootNode.Root.HipsCtrl.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToes.LeftToes_end",
+                    "RootNode.Root.HipsCtrl.Hips.RightUpLeg.RightLeg.RightFoot.RightToes.RightToes_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.Neck.Head.Head_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2.LeftHandThumb2_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2.RightHandThumb2_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3.LeftHandIndex3_end",
+                    "RootNode.Root.HipsCtrl.Hips.Spine.Chest.UpperChest.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3.RightHandIndex3_end"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "SkinRule"
+                    },
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{76A10201-27F7-5462-89A0-A77DCB1C9B80}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}
