@@ -1,0 +1,516 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Waypoints",
+        "Components": {
+            "Component_[1106865406666414586]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1106865406666414586
+            },
+            "Component_[11776021984819596253]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11776021984819596253
+            },
+            "Component_[12850879362425562973]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12850879362425562973
+            },
+            "Component_[13338362677143346679]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13338362677143346679
+            },
+            "Component_[15679693696693709172]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15679693696693709172
+            },
+            "Component_[2918812052272826696]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2918812052272826696
+            },
+            "Component_[3457208234575800233]": {
+                "$type": "EditorLockComponent",
+                "Id": 3457208234575800233
+            },
+            "Component_[546384124247931547]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 546384124247931547
+            },
+            "Component_[5662011185089579550]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5662011185089579550,
+                "Parent Entity": ""
+            },
+            "Component_[6433172858362327452]": {
+                "$type": "SelectionComponent",
+                "Id": 6433172858362327452
+            },
+            "Component_[7152674228252113820]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7152674228252113820
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[66668624546260]": {
+            "Id": "Entity_[66668624546260]",
+            "Name": "0",
+            "Components": {
+                "Component_[10874314104420323242]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10874314104420323242
+                },
+                "Component_[12236151820292535407]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 12236151820292535407,
+                    "m_name": "WaypointReached",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[13760646122553688788]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13760646122553688788
+                },
+                "Component_[14484605333800473139]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14484605333800473139,
+                    "Parent Entity": "Entity_[66685804415444]",
+                    "Transform Data": {
+                        "Translate": [
+                            -12.792768478393555,
+                            0.41669654846191409,
+                            1.994016408920288
+                        ]
+                    }
+                },
+                "Component_[15063975483449568924]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15063975483449568924
+                },
+                "Component_[15653757668423518947]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15653757668423518947
+                },
+                "Component_[2734340509378154970]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2734340509378154970
+                },
+                "Component_[3189183164152009469]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3189183164152009469
+                },
+                "Component_[452552036372356183]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 452552036372356183
+                },
+                "Component_[7758375774686631078]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7758375774686631078,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                5.0,
+                                5.0,
+                                5.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[8971032223905594854]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8971032223905594854
+                },
+                "Component_[8979789911829035201]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8979789911829035201
+                }
+            }
+        },
+        "Entity_[66672919513556]": {
+            "Id": "Entity_[66672919513556]",
+            "Name": "3",
+            "Components": {
+                "Component_[10874314104420323242]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10874314104420323242
+                },
+                "Component_[13760646122553688788]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13760646122553688788
+                },
+                "Component_[14484605333800473139]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14484605333800473139,
+                    "Parent Entity": "Entity_[66685804415444]",
+                    "Transform Data": {
+                        "Translate": [
+                            11.263261795043946,
+                            -2.6646480560302736,
+                            1.994016408920288
+                        ]
+                    }
+                },
+                "Component_[15063975483449568924]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15063975483449568924
+                },
+                "Component_[15653757668423518947]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15653757668423518947
+                },
+                "Component_[2734340509378154970]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2734340509378154970
+                },
+                "Component_[3189183164152009469]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3189183164152009469
+                },
+                "Component_[452552036372356183]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 452552036372356183
+                },
+                "Component_[617687220088129963]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 617687220088129963,
+                    "m_name": "WaypointReached",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[7758375774686631078]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7758375774686631078,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                5.0,
+                                5.0,
+                                5.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[8971032223905594854]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8971032223905594854
+                },
+                "Component_[8979789911829035201]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8979789911829035201
+                }
+            }
+        },
+        "Entity_[66677214480852]": {
+            "Id": "Entity_[66677214480852]",
+            "Name": "1",
+            "Components": {
+                "Component_[10874314104420323242]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10874314104420323242
+                },
+                "Component_[12755874487292145595]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 12755874487292145595,
+                    "m_name": "WaypointReached",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[13760646122553688788]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13760646122553688788
+                },
+                "Component_[14484605333800473139]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14484605333800473139,
+                    "Parent Entity": "Entity_[66685804415444]",
+                    "Transform Data": {
+                        "Translate": [
+                            -12.792768478393555,
+                            -19.538270950317384,
+                            1.994016408920288
+                        ]
+                    }
+                },
+                "Component_[15063975483449568924]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15063975483449568924
+                },
+                "Component_[15653757668423518947]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15653757668423518947
+                },
+                "Component_[2734340509378154970]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2734340509378154970
+                },
+                "Component_[3189183164152009469]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3189183164152009469
+                },
+                "Component_[452552036372356183]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 452552036372356183
+                },
+                "Component_[7758375774686631078]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7758375774686631078,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                5.0,
+                                5.0,
+                                5.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[8971032223905594854]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8971032223905594854
+                },
+                "Component_[8979789911829035201]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8979789911829035201
+                }
+            }
+        },
+        "Entity_[66681509448148]": {
+            "Id": "Entity_[66681509448148]",
+            "Name": "2",
+            "Components": {
+                "Component_[10874314104420323242]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10874314104420323242
+                },
+                "Component_[13760646122553688788]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13760646122553688788
+                },
+                "Component_[14484605333800473139]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14484605333800473139,
+                    "Parent Entity": "Entity_[66685804415444]",
+                    "Transform Data": {
+                        "Translate": [
+                            11.263261795043946,
+                            -19.538270950317384,
+                            1.994016408920288
+                        ]
+                    }
+                },
+                "Component_[15063975483449568924]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15063975483449568924
+                },
+                "Component_[15653757668423518947]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15653757668423518947
+                },
+                "Component_[2734340509378154970]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2734340509378154970
+                },
+                "Component_[3189183164152009469]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3189183164152009469
+                },
+                "Component_[452552036372356183]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 452552036372356183
+                },
+                "Component_[6720442435089100100]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 6720442435089100100,
+                    "m_name": "WaypointReached",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{57D2736E-6027-51AE-815D-258156774DB7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/waypointreached.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[7758375774686631078]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7758375774686631078,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                5.0,
+                                5.0,
+                                5.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[8971032223905594854]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8971032223905594854
+                },
+                "Component_[8979789911829035201]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8979789911829035201
+                }
+            }
+        },
+        "Entity_[66685804415444]": {
+            "Id": "Entity_[66685804415444]",
+            "Name": "Waypoints",
+            "Components": {
+                "Component_[18176984991605804482]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18176984991605804482
+                },
+                "Component_[2897574781821991472]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2897574781821991472,
+                    "ChildEntityOrderEntryArray": [
+                        {
+                            "EntityId": "Entity_[66668624546260]"
+                        },
+                        {
+                            "EntityId": "Entity_[66672919513556]",
+                            "SortIndex": 1
+                        },
+                        {
+                            "EntityId": "Entity_[66681509448148]",
+                            "SortIndex": 2
+                        },
+                        {
+                            "EntityId": "Entity_[66677214480852]",
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[3914453724200799443]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3914453724200799443,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6461245253936079553
+                        }
+                    ]
+                },
+                "Component_[3967233886137231423]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3967233886137231423
+                },
+                "Component_[4073949966865411214]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4073949966865411214
+                },
+                "Component_[4846810039782329537]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4846810039782329537
+                },
+                "Component_[6461245253936079553]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6461245253936079553,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6679810366959749837]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6679810366959749837
+                },
+                "Component_[7973955824719564461]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7973955824719564461
+                },
+                "Component_[8682487980510812809]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8682487980510812809
+                }
+            }
+        }
+    }
+}

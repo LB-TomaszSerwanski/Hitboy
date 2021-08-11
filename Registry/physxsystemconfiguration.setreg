@@ -7,7 +7,7 @@
                         "Layers": {
                             "LayerNames": [
                                 "Default",
-                                {},
+                                "PlayerRaycastCollider",
                                 {},
                                 {},
                                 {},
@@ -104,7 +104,16 @@
                                     },
                                     "Name": "Enemy",
                                     "Group": {
-                                        "Mask": 9223372036854775805
+                                        "Mask": 9223372036854775807
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{0AC6A2F2-B9BE-4C2A-91E8-84F06A8A4AC1}"
+                                    },
+                                    "Name": "PlayerRaycast",
+                                    "Group": {
+                                        "Mask": 9223372036854775806
                                     }
                                 }
                             ]

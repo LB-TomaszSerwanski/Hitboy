@@ -1,0 +1,192 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Enemy",
+        "Components": {
+            "Component_[11362097963140222206]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11362097963140222206
+            },
+            "Component_[12562618317336723430]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12562618317336723430
+            },
+            "Component_[12817653912205206824]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12817653912205206824
+            },
+            "Component_[13555659671406551613]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13555659671406551613
+            },
+            "Component_[15453095773313076211]": {
+                "$type": "SelectionComponent",
+                "Id": 15453095773313076211
+            },
+            "Component_[3190174787092752603]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3190174787092752603
+            },
+            "Component_[5429988976064893269]": {
+                "$type": "EditorLockComponent",
+                "Id": 5429988976064893269
+            },
+            "Component_[5686189042744206149]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5686189042744206149
+            },
+            "Component_[7327682717281533483]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7327682717281533483
+            },
+            "Component_[755849042375178242]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 755849042375178242,
+                "Parent Entity": ""
+            },
+            "Component_[769980875988658903]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 769980875988658903
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[66204768078292]": {
+            "Id": "Entity_[66204768078292]",
+            "Name": "Enemy",
+            "Components": {
+                "Component_[10789351944715265527]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10789351944715265527
+                },
+                "Component_[12037033284781049225]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12037033284781049225
+                },
+                "Component_[13759153306105970079]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13759153306105970079
+                },
+                "Component_[14135560884830586279]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14135560884830586279,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6472623349872972660
+                        },
+                        {
+                            "ComponentId": 6606297209491043247,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6495255223970673916,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 9693596885917541422,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16247165675903986673]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16247165675903986673
+                },
+                "Component_[18082433625958885247]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18082433625958885247
+                },
+                "Component_[6472623349872972660]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6472623349872972660,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6495255223970673916]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6495255223970673916,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 281415304
+                                },
+                                "assetHint": "objects/shaderball/shaderball_default_1m.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6606297209491043247]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 6606297209491043247,
+                    "m_name": "LookAtPlayer",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{4E291725-9071-5146-841D-EC60945C5F5A}"
+                            },
+                            "assetHint": "assets/scriptcanvas/lookatplayer.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{4E291725-9071-5146-841D-EC60945C5F5A}"
+                            },
+                            "assetHint": "assets/scriptcanvas/lookatplayer.scriptcanvas"
+                        },
+                        "overridesUnused": [
+                            {
+                                "Datum": {
+                                    "m_isUntypedStorage": false,
+                                    "m_type": {
+                                        "m_type": 0
+                                    },
+                                    "m_datumStorage": {
+                                        "$type": "bool",
+                                        "value": true
+                                    }
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{0CF327B4-196D-4A99-BE00-909B028EB825}"
+                                },
+                                "VariableName": "CanMove"
+                            }
+                        ]
+                    }
+                },
+                "Component_[8056625192494070973]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8056625192494070973
+                },
+                "Component_[8550141614185782969]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8550141614185782969
+                },
+                "Component_[9439770997198325425]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9439770997198325425
+                },
+                "Component_[9693596885917541422]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 9693596885917541422,
+                    "Configuration": {
+                        "entityId": "",
+                        "CollisionGroupId": {
+                            "GroupId": "{0C13A6CB-4A87-4EA7-8E7F-751180B9B0C0}"
+                        },
+                        "Material": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
