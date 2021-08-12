@@ -160,6 +160,19 @@
                             },
                             "defaultMaterialAsset": {
                                 "assetId": {
+                                    "guid": "{967C74A6-88BB-5FA1-8A85-6C8EFCEA7373}",
+                                    "subId": 803645540
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "assets/models/ground/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 803645540
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
                                     "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
                                     "subId": 803645540
                                 },
@@ -169,6 +182,22 @@
                         }
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 803645540
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{967C74A6-88BB-5FA1-8A85-6C8EFCEA7373}",
+                                        "subId": 803645540
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "assets/models/ground/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {
@@ -194,10 +223,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "guid": "{967C74A6-88BB-5FA1-8A85-6C8EFCEA7373}",
                                     "subId": 277889906
                                 },
-                                "assetHint": "objects/groudplane/groundplane_512x512m.azmodel"
+                                "assetHint": "assets/models/ground/groundplane_512x512m.azmodel"
                             }
                         }
                     }
@@ -213,6 +242,38 @@
                 "Component_[7090012899106946164]": {
                     "$type": "EditorLockComponent",
                     "Id": 7090012899106946164
+                },
+                "Component_[9002213890507497787]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 9002213890507497787,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{967C74A6-88BB-5FA1-8A85-6C8EFCEA7373}",
+                                    "subId": 51387626
+                                },
+                                "assetHint": "assets/models/ground/groundplane_512x512m.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{967C74A6-88BB-5FA1-8A85-6C8EFCEA7373}",
+                                        "subId": 51387626
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/models/ground/groundplane_512x512m.pxmesh"
+                                }
+                            }
+                        }
+                    }
                 },
                 "Component_[9410832619875640998]": {
                     "$type": "EditorVisibilityComponent",
@@ -661,32 +722,6 @@
         }
     },
     "Instances": {
-        "Instance_[66209063045588]": {
-            "Source": "Assets/Prefabs/Enemy.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Parent Entity",
-                    "value": "../Entity_[83815978737254]"
-                },
-                {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data",
-                    "value": {
-                        "Translate": [
-                            -3.726317882537842,
-                            0.49289512634277346,
-                            0.0
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.10000000149011612,
-                            0.0
-                        ]
-                    }
-                }
-            ]
-        },
         "Instance_[66359386900948]": {
             "Source": "Assets/Prefabs/PlayerController.prefab",
             "Patches": [
@@ -715,6 +750,117 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5662011185089579550]/Parent Entity",
                     "value": "../Entity_[83807388802662]"
+                }
+            ]
+        },
+        "Instance_[88606685181544]": {
+            "Source": "Assets/Prefabs/Enemy.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Parent Entity",
+                    "value": "../Entity_[83815978737254]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/0",
+                    "value": 13.993587493896485
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/1",
+                    "value": 1.7247333526611329
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Rotate/1",
+                    "value": 0.10000000149011612
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Scale"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Locked"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/UniformScale"
+                }
+            ]
+        },
+        "Instance_[88851498317416]": {
+            "Source": "Assets/Prefabs/Enemy.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Parent Entity",
+                    "value": "../Entity_[83815978737254]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/0",
+                    "value": -7.462953567504883
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/1",
+                    "value": 0.2247109413146973
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Rotate/1",
+                    "value": 0.10000000149011612
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Scale"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Locked"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/UniformScale"
+                }
+            ]
+        },
+        "Instance_[91630342157928]": {
+            "Source": "Assets/Prefabs/Enemy.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Parent Entity",
+                    "value": "../Entity_[83815978737254]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/0",
+                    "value": -43.3885612487793
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/1",
+                    "value": 24.090660095214845
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Rotate/1",
+                    "value": 0.10000000149011612
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Scale"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Locked"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/UniformScale"
                 }
             ]
         }

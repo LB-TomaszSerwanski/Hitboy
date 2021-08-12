@@ -55,6 +55,10 @@
             "Id": "Entity_[66204768078292]",
             "Name": "Enemy",
             "Components": {
+                "Component_[10064422111514743124]": {
+                    "$type": "EditorCharacterGameplayComponent",
+                    "Id": 10064422111514743124
+                },
                 "Component_[10789351944715265527]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 10789351944715265527
@@ -136,6 +140,48 @@
                             },
                             "assetHint": "assets/scriptcanvas/lookatplayer.scriptcanvas"
                         },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "m_isUntypedStorage": false,
+                                    "m_type": {
+                                        "m_type": 3
+                                    },
+                                    "m_datumStorage": {
+                                        "$type": "double",
+                                        "value": 0.0
+                                    }
+                                },
+                                "VariableId": {
+                                    "m_id": "{AD9F4065-0442-4110-A455-42429185781E}"
+                                },
+                                "VariableName": "NextWaypoint",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "m_isUntypedStorage": false,
+                                    "m_type": {
+                                        "m_type": 3
+                                    },
+                                    "m_originality": 0,
+                                    "m_datumStorage": {
+                                        "$type": "double",
+                                        "value": 0.0
+                                    }
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{AD9F4065-0442-4110-A455-42429185781E}"
+                                },
+                                "VariableName": "NextWaypoint",
+                                "InitialValueSource": 1
+                            }
+                        ],
                         "overridesUnused": [
                             {
                                 "Datum": {

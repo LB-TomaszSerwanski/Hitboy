@@ -381,6 +381,10 @@
                         }
                     ]
                 },
+                "Component_[13337428676859434274]": {
+                    "$type": "EditorCharacterGameplayComponent",
+                    "Id": 13337428676859434274
+                },
                 "Component_[14463432366053381212]": {
                     "$type": "SelectionComponent",
                     "Id": 14463432366053381212
@@ -532,7 +536,7 @@
                             "Index": 1
                         },
                         "CollisionGroupId": {
-                            "GroupId": "{0AC6A2F2-B9BE-4C2A-91E8-84F06A8A4AC1}"
+                            "GroupId": "{0C13A6CB-4A87-4EA7-8E7F-751180B9B0C0}"
                         },
                         "MaterialSelection": {
                             "MaterialIds": [
