@@ -298,6 +298,43 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 8550141614185782969
                 },
+                "Component_[8780737921203696658]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8780737921203696658,
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
                 "Component_[9439770997198325425]": {
                     "$type": "EditorLockComponent",
                     "Id": 9439770997198325425
@@ -313,6 +350,16 @@
                         "Material": {
                             "MaterialIds": [
                                 {}
+                            ]
+                        }
+                    },
+                    "ShapeConfig": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                2.0,
+                                2.0,
+                                2.0
                             ]
                         }
                     }

@@ -1,0 +1,193 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "UI",
+        "Components": {
+            "Component_[10432558697547036582]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10432558697547036582,
+                "Parent Entity": ""
+            },
+            "Component_[11261439377069908662]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11261439377069908662
+            },
+            "Component_[11962319274912635222]": {
+                "$type": "SelectionComponent",
+                "Id": 11962319274912635222
+            },
+            "Component_[15224200502907731412]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15224200502907731412
+            },
+            "Component_[3200841951969591007]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3200841951969591007
+            },
+            "Component_[4458622828293530066]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4458622828293530066
+            },
+            "Component_[5290853224123688943]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5290853224123688943
+            },
+            "Component_[7143895732144626595]": {
+                "$type": "EditorLockComponent",
+                "Id": 7143895732144626595
+            },
+            "Component_[861102577104393982]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 861102577104393982
+            },
+            "Component_[8810775097167707274]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8810775097167707274
+            },
+            "Component_[9777513615458571637]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9777513615458571637
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[421733119154367]": {
+            "Id": "Entity_[421733119154367]",
+            "Name": "Scripts",
+            "Components": {
+                "Component_[10164352665446820809]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10164352665446820809
+                },
+                "Component_[13553698209203908363]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 13553698209203908363,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{BE6F29F6-5882-5081-8C97-1A50727F395B}"
+                            },
+                            "assetHint": "assets/ui/weapon1.inputbindings"
+                        }
+                    }
+                },
+                "Component_[14322405572769904416]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14322405572769904416
+                },
+                "Component_[15203204522229816380]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15203204522229816380
+                },
+                "Component_[16778600368733026515]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16778600368733026515
+                },
+                "Component_[255021131764774571]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 255021131764774571
+                },
+                "Component_[2766451973821242061]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 2766451973821242061,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "assets/ui/welcomescreen.uicanvas"
+                        }
+                    }
+                },
+                "Component_[3194225120549737439]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3194225120549737439,
+                    "m_name": "LoadingCanvas",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{9168CE26-71F3-5B07-943C-090EB89544E4}"
+                            },
+                            "assetHint": "assets/ui/loadingcanvas.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{9168CE26-71F3-5B07-943C-090EB89544E4}"
+                            },
+                            "assetHint": "assets/ui/loadingcanvas.scriptcanvas"
+                        },
+                        "entityId": [
+                            [
+                                {
+                                    "m_id": "{55262428-650E-4D9F-B9E4-1EC84B88C8B0}"
+                                },
+                                ""
+                            ]
+                        ],
+                        "overridesUnused": [
+                            {
+                                "Datum": {
+                                    "m_isUntypedStorage": false,
+                                    "m_type": {
+                                        "m_type": 1
+                                    },
+                                    "m_datumStorage": {
+                                        "$type": "EntityId",
+                                        "value": ""
+                                    }
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{F6DF1308-A4FE-4F6A-BB54-85C10E460203}"
+                                },
+                                "VariableName": "Camera1 [8126328336624867324]"
+                            }
+                        ]
+                    }
+                },
+                "Component_[3340258672980043009]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3340258672980043009
+                },
+                "Component_[4003116189491408252]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4003116189491408252,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6151425516974064193
+                        },
+                        {
+                            "ComponentId": 2766451973821242061,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13553698209203908363,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3194225120549737439,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[5866745718915370858]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5866745718915370858
+                },
+                "Component_[6151425516974064193]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6151425516974064193,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6422255426278006283]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6422255426278006283
+                }
+            }
+        }
+    }
+}
