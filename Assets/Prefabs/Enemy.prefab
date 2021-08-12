@@ -51,6 +51,91 @@
         }
     },
     "Entities": {
+        "Entity_[104936660260089]": {
+            "Id": "Entity_[104936660260089]",
+            "Name": "GunPoint",
+            "Components": {
+                "Component_[11304073369306647799]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 11304073369306647799,
+                    "ShapeColor": [
+                        0.8663309812545776,
+                        0.0012664988171309233,
+                        0.0012664988171309233,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[12320531854192742180]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12320531854192742180
+                },
+                "Component_[13444656282272030746]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13444656282272030746
+                },
+                "Component_[14635055051606451530]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14635055051606451530
+                },
+                "Component_[15273695747192288531]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15273695747192288531
+                },
+                "Component_[15727520219544852610]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15727520219544852610
+                },
+                "Component_[15990600469056483734]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15990600469056483734
+                },
+                "Component_[17193668139105212274]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17193668139105212274
+                },
+                "Component_[222003850477339313]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 222003850477339313,
+                    "Parent Entity": "Entity_[66204768078292]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.000003814697265625,
+                            0.6004524230957031,
+                            1.0504297018051148
+                        ]
+                    }
+                },
+                "Component_[2384791890140392726]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2384791890140392726
+                },
+                "Component_[3970215124546999471]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 3970215124546999471,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Color": [
+                                0.8663309812545776,
+                                0.0012664988171309233,
+                                0.0012664988171309233
+                            ],
+                            "Intensity": 0.10000000149011612,
+                            "AttenuationRadius": 0.430324524641037
+                        }
+                    }
+                },
+                "Component_[8271641929285189702]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8271641929285189702
+                }
+            }
+        },
         "Entity_[66204768078292]": {
             "Id": "Entity_[66204768078292]",
             "Name": "Enemy",
