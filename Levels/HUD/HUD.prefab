@@ -452,27 +452,6 @@
                                 },
                                 ""
                             ]
-                        ],
-                        "overridesUnused": [
-                            {
-                                "Datum": {
-                                    "m_isUntypedStorage": false,
-                                    "m_type": {
-                                        "m_type": 1
-                                    },
-                                    "m_datumStorage": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[203163268169368]"
-                                    }
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{F6DF1308-A4FE-4F6A-BB54-85C10E460203}"
-                                },
-                                "VariableName": "Camera1 [8126328336624867324]"
-                            }
                         ]
                     }
                 },
