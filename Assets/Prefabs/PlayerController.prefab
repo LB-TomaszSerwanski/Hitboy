@@ -120,7 +120,7 @@
                     "m_template": {
                         "$type": "UiCanvasAssetRefComponent",
                         "CanvasAssetRef": {
-                            "AssetPath": "assets/ui/sniper_placeholder.uicanvas"
+                            "AssetPath": "assets/ui/sniper_scope.uicanvas"
                         }
                     }
                 }
@@ -449,14 +449,6 @@
                                 "InitialValueSource": 1
                             }
                         ],
-                        "entityId": [
-                            [
-                                {
-                                    "m_id": "{950D6CE8-ACB0-454F-88BE-13687B2F893A}"
-                                },
-                                ""
-                            ]
-                        ],
                         "overrides": [
                             {
                                 "Datum": {
@@ -474,7 +466,9 @@
                                 },
                                 "VariableName": "MoveSpeed",
                                 "InitialValueSource": 1
-                            },
+                            }
+                        ],
+                        "overridesUnused": [
                             {
                                 "Datum": {
                                     "scriptCanvasType": {
