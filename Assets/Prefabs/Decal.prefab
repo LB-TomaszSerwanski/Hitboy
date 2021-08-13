@@ -68,6 +68,28 @@
                         }
                     ]
                 },
+                "Component_[1309315565073630799]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 1309315565073630799,
+                    "m_name": "DestroySelf",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{2EEEA05C-EF2A-5E9B-A7FB-C085775E2F68}"
+                            },
+                            "assetHint": "assets/scriptcanvas/destroyself.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{2EEEA05C-EF2A-5E9B-A7FB-C085775E2F68}"
+                            },
+                            "assetHint": "assets/scriptcanvas/destroyself.scriptcanvas"
+                        }
+                    }
+                },
                 "Component_[13500030843646600511]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13500030843646600511

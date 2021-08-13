@@ -217,7 +217,10 @@
                 "Component_[16063292528070134151]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 16063292528070134151,
-                    "Parent Entity": "Entity_[66350796966356]"
+                    "Parent Entity": "Entity_[66350796966356]",
+                    "Transform Data": {
+                        "UniformScale": 0.5
+                    }
                 },
                 "Component_[16780015241890484122]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -232,11 +235,11 @@
                     "Id": 18211588595968105492,
                     "ActorAsset": {
                         "assetId": {
-                            "guid": "{34A773FE-44B9-5876-9813-954BBDE9F201}",
-                            "subId": 2949193728
+                            "guid": "{392C9AAC-DD48-5162-B3DE-7960A4B0E94A}",
+                            "subId": 3980023559
                         },
                         "loadBehavior": "QueueLoad",
-                        "assetHint": "assets/models/cowboy/actor/cowboy_01.actor"
+                        "assetHint": "assets/characters/model/character_rigged.actor"
                     },
                     "MaterialPerLOD": [
                         {
@@ -433,14 +436,11 @@
                         "variables": [
                             {
                                 "Datum": {
-                                    "m_isUntypedStorage": false,
-                                    "m_type": {
+                                    "scriptCanvasType": {
                                         "m_type": 3
                                     },
-                                    "m_datumStorage": {
-                                        "$type": "double",
-                                        "value": 2.0
-                                    }
+                                    "$type": "double",
+                                    "value": 5.0
                                 },
                                 "VariableId": {
                                     "m_id": "{DF690242-347F-41D1-AF2A-29AC668A1FBE}"
@@ -449,18 +449,22 @@
                                 "InitialValueSource": 1
                             }
                         ],
+                        "entityId": [
+                            [
+                                {
+                                    "m_id": "{950D6CE8-ACB0-454F-88BE-13687B2F893A}"
+                                },
+                                ""
+                            ]
+                        ],
                         "overrides": [
                             {
                                 "Datum": {
-                                    "m_isUntypedStorage": false,
-                                    "m_type": {
+                                    "scriptCanvasType": {
                                         "m_type": 3
                                     },
-                                    "m_originality": 0,
-                                    "m_datumStorage": {
-                                        "$type": "double",
-                                        "value": 5.0
-                                    }
+                                    "$type": "double",
+                                    "value": 5.0
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -469,6 +473,23 @@
                                     "m_id": "{DF690242-347F-41D1-AF2A-29AC668A1FBE}"
                                 },
                                 "VariableName": "MoveSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{950D6CE8-ACB0-454F-88BE-13687B2F893A}"
+                                },
+                                "VariableName": "HUDUIEntity",
                                 "InitialValueSource": 1
                             }
                         ]
@@ -602,6 +623,114 @@
                 "Component_[8686016066861768123]": {
                     "$type": "SelectionComponent",
                     "Id": 8686016066861768123
+                }
+            }
+        },
+        "Entity_[87755929664526]": {
+            "Id": "Entity_[87755929664526]",
+            "Name": "Weapon",
+            "Components": {
+                "Component_[10719082308163768663]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10719082308163768663,
+                    "Parent Entity": "Entity_[66342207031764]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.825249195098877,
+                            0.610076904296875,
+                            2.423584461212158
+                        ],
+                        "Rotate": [
+                            173.57244873046876,
+                            84.64199829101563,
+                            6.455524921417236
+                        ],
+                        "UniformScale": 2.0
+                    }
+                },
+                "Component_[1142822723726390146]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1142822723726390146
+                },
+                "Component_[13086731625599964303]": {
+                    "$type": "EditorAttachmentComponent",
+                    "Id": 13086731625599964303,
+                    "Target ID": "Entity_[66342207031764]",
+                    "Target Bone Name": "upper_armIK_R_end",
+                    "Position Offset": [
+                        0.10000000149011612,
+                        -0.8999999761581421,
+                        0.5
+                    ]
+                },
+                "Component_[16688623794480609829]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16688623794480609829
+                },
+                "Component_[16959212193400534197]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 16959212193400534197,
+                    "m_name": "ChangeWeaponModel",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{82F396B3-3883-5684-8F27-BB2119BB49E6}"
+                            },
+                            "assetHint": "assets/scriptcanvas/changeweaponmodel.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{82F396B3-3883-5684-8F27-BB2119BB49E6}"
+                            },
+                            "assetHint": "assets/scriptcanvas/changeweaponmodel.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[17349500220021348226]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17349500220021348226
+                },
+                "Component_[18415785672409013512]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18415785672409013512
+                },
+                "Component_[2498232628904059065]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2498232628904059065
+                },
+                "Component_[3150313734690351348]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3150313734690351348
+                },
+                "Component_[3835321350672193805]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3835321350672193805
+                },
+                "Component_[7637260541287412130]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7637260541287412130
+                },
+                "Component_[8708042265740367082]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8708042265740367082
+                },
+                "Component_[9751058479369864435]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9751058479369864435,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B1B487F1-40AA-56A6-A72F-C798874C420D}",
+                                    "subId": 282266952
+                                },
+                                "assetHint": "assets/characters/blasters/models/fbx format/blasterc.azmodel"
+                            }
+                        }
+                    }
                 }
             }
         }
