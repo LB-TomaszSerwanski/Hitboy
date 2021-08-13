@@ -85,6 +85,8 @@
                     "Id": 14381529019301248783,
                     "Controller": {
                         "Configuration": {
+                            "Attenuation Angle": 0.009999999776482582,
+                            "SortKey": 17,
                             "Material": {
                                 "assetId": {
                                     "guid": "{3A2F5552-CEF5-5577-94A4-5FF9917879B0}"
@@ -99,6 +101,11 @@
                     "Id": 16985364968720328691,
                     "Parent Entity": "ContainerEntity",
                     "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
                         "UniformScale": 0.10000000149011612
                     }
                 },

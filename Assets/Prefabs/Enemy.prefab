@@ -228,14 +228,11 @@
                         "variables": [
                             {
                                 "Datum": {
-                                    "m_isUntypedStorage": false,
-                                    "m_type": {
+                                    "scriptCanvasType": {
                                         "m_type": 3
                                     },
-                                    "m_datumStorage": {
-                                        "$type": "double",
-                                        "value": 0.0
-                                    }
+                                    "$type": "double",
+                                    "value": 0.0
                                 },
                                 "VariableId": {
                                     "m_id": "{AD9F4065-0442-4110-A455-42429185781E}"
@@ -247,15 +244,11 @@
                         "overrides": [
                             {
                                 "Datum": {
-                                    "m_isUntypedStorage": false,
-                                    "m_type": {
+                                    "scriptCanvasType": {
                                         "m_type": 3
                                     },
-                                    "m_originality": 0,
-                                    "m_datumStorage": {
-                                        "$type": "double",
-                                        "value": 0.0
-                                    }
+                                    "$type": "double",
+                                    "value": 0.0
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -270,14 +263,11 @@
                         "overridesUnused": [
                             {
                                 "Datum": {
-                                    "m_isUntypedStorage": false,
-                                    "m_type": {
+                                    "scriptCanvasType": {
                                         "m_type": 0
                                     },
-                                    "m_datumStorage": {
-                                        "$type": "bool",
-                                        "value": true
-                                    }
+                                    "$type": "bool",
+                                    "value": true
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -314,9 +304,96 @@
                                 "loadBehavior": "PreLoad",
                                 "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
                             }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
                         }
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {
@@ -351,16 +428,20 @@
                             "MaterialIds": [
                                 {}
                             ]
-                        }
+                        },
+                        "ContactOffset": 0.009999999776482582
                     },
                     "ShapeConfig": {
-                        "ShapeType": 1,
                         "Box": {
                             "Configuration": [
                                 2.0,
                                 2.0,
                                 2.0
                             ]
+                        },
+                        "Capsule": {
+                            "Height": 1.6000001430511475,
+                            "Radius": 0.7999998927116394
                         }
                     }
                 }
