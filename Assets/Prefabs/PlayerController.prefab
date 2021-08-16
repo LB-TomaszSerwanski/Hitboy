@@ -51,6 +51,60 @@
         }
     },
     "Entities": {
+        "Entity_[470508332119349]": {
+            "Id": "Entity_[470508332119349]",
+            "Name": "CameraRaycastPoint",
+            "Components": {
+                "Component_[16647220174726952345]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16647220174726952345
+                },
+                "Component_[17011904892041227340]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17011904892041227340,
+                    "Parent Entity": "Entity_[66350796966356]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.550000011920929,
+                            1.0
+                        ]
+                    }
+                },
+                "Component_[1995314116581887266]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1995314116581887266
+                },
+                "Component_[353550815328372331]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 353550815328372331
+                },
+                "Component_[4972353737633913653]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4972353737633913653
+                },
+                "Component_[5018340309579047464]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5018340309579047464
+                },
+                "Component_[6494166712793302252]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6494166712793302252
+                },
+                "Component_[7724571229987265081]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7724571229987265081
+                },
+                "Component_[8378321650996802857]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8378321650996802857
+                },
+                "Component_[8686016066861768123]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8686016066861768123
+                }
+            }
+        },
         "Entity_[66333617097172]": {
             "Id": "Entity_[66333617097172]",
             "Name": "SniperCamera",
@@ -66,8 +120,13 @@
                     "Transform Data": {
                         "Translate": [
                             0.0,
-                            12.944782257080079,
-                            3.359280586242676
+                            12.0,
+                            1.5
+                        ],
+                        "Rotate": [
+                            -20.0,
+                            0.000003783488409681013,
+                            0.000015156044355535414
                         ]
                     }
                 },
@@ -78,6 +137,55 @@
                 "Component_[14928069211534089066]": {
                     "$type": "EditorLockComponent",
                     "Id": 14928069211534089066
+                },
+                "Component_[1493468473189247040]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 1493468473189247040,
+                    "m_name": "SniperCameraHandler",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{46E545AE-DB11-595E-9273-9DFDF1E8ABC7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/snipercamerahandler.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{46E545AE-DB11-595E-9273-9DFDF1E8ABC7}"
+                            },
+                            "assetHint": "assets/scriptcanvas/snipercamerahandler.scriptcanvas"
+                        },
+                        "entityId": [
+                            [
+                                {
+                                    "m_id": "{43F0F460-10FA-40E1-9CE1-1C2C2BF26B36}"
+                                },
+                                ""
+                            ]
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": "Entity_[470508332119349]"
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{43F0F460-10FA-40E1-9CE1-1C2C2BF26B36}"
+                                },
+                                "VariableName": "PlayerEntity",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    }
                 },
                 "Component_[1668166327803178725]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -104,7 +212,7 @@
                     "Id": 4917371433264856323,
                     "Controller": {
                         "Configuration": {
-                            "Field of View": 30.0,
+                            "Field of View": 20.0,
                             "EditorEntityId": 2047988773372503953,
                             "MakeActiveViewOnActivation": false
                         }
@@ -416,22 +524,22 @@
                 "Component_[17872901931178993992]": {
                     "$type": "EditorScriptCanvasComponent",
                     "Id": 17872901931178993992,
-                    "m_name": "PlayerController",
+                    "m_name": "PlayerController_v2",
                     "m_assetHolder": {
                         "m_asset": {
                             "assetId": {
-                                "guid": "{EC20D226-37C0-5463-A8F9-D46E0BAF4351}"
+                                "guid": "{80060B2D-C739-5554-AA3C-A5483B451C32}"
                             },
-                            "assetHint": "assets/scriptcanvas/playercontroller.scriptcanvas"
+                            "assetHint": "assets/scriptcanvas/playercontroller_v2.scriptcanvas"
                         }
                     },
                     "runtimeDataIsValid": true,
                     "runtimeDataOverrides": {
                         "source": {
                             "assetId": {
-                                "guid": "{EC20D226-37C0-5463-A8F9-D46E0BAF4351}"
+                                "guid": "{80060B2D-C739-5554-AA3C-A5483B451C32}"
                             },
-                            "assetHint": "assets/scriptcanvas/playercontroller.scriptcanvas"
+                            "assetHint": "assets/scriptcanvas/playercontroller_v2.scriptcanvas"
                         },
                         "variables": [
                             {
@@ -449,6 +557,14 @@
                                 "InitialValueSource": 1
                             }
                         ],
+                        "entityId": [
+                            [
+                                {
+                                    "m_id": "{C0D16C26-AA30-4D20-A645-12BA5446C9D4}"
+                                },
+                                ""
+                            ]
+                        ],
                         "overrides": [
                             {
                                 "Datum": {
@@ -465,6 +581,23 @@
                                     "m_id": "{DF690242-347F-41D1-AF2A-29AC668A1FBE}"
                                 },
                                 "VariableName": "MoveSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": "Entity_[66333617097172]"
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{C0D16C26-AA30-4D20-A645-12BA5446C9D4}"
+                                },
+                                "VariableName": "SniperCameraEntity",
                                 "InitialValueSource": 1
                             }
                         ],
@@ -485,6 +618,27 @@
                                 },
                                 "VariableName": "HUDUIEntity",
                                 "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 4,
+                                        "m_azType": "{D0A15826-BEFB-5FBD-BEB4-609E7F2B67AD}"
+                                    },
+                                    "$type": "{D0A15826-BEFB-5FBD-BEB4-609E7F2B67AD} AZStd::unordered_map",
+                                    "value": {
+                                        "machine_gun": 0.1,
+                                        "pistol": 0.6,
+                                        "sniper_rifle": 7.0
+                                    }
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{E1DE138D-5B85-4D1D-9DDE-E3347A61C353}"
+                                },
+                                "VariableName": "WeaponCooldowns"
                             }
                         ]
                     }
@@ -601,6 +755,28 @@
                 "Component_[5018340309579047464]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 5018340309579047464
+                },
+                "Component_[638131122494262556]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 638131122494262556,
+                    "m_name": "SendDamageToPlayer",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{5241CF13-8416-5FB5-A742-FF4CD74686F5}"
+                            },
+                            "assetHint": "assets/scriptcanvas/senddamagetoplayer.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{5241CF13-8416-5FB5-A742-FF4CD74686F5}"
+                            },
+                            "assetHint": "assets/scriptcanvas/senddamagetoplayer.scriptcanvas"
+                        }
+                    }
                 },
                 "Component_[6494166712793302252]": {
                     "$type": "EditorOnlyEntityComponent",
