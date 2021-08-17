@@ -560,6 +560,12 @@
                         "entityId": [
                             [
                                 {
+                                    "m_id": "{950D6CE8-ACB0-454F-88BE-13687B2F893A}"
+                                },
+                                ""
+                            ],
+                            [
+                                {
                                     "m_id": "{C0D16C26-AA30-4D20-A645-12BA5446C9D4}"
                                 },
                                 ""
@@ -589,6 +595,23 @@
                                         "m_type": 1
                                     },
                                     "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{950D6CE8-ACB0-454F-88BE-13687B2F893A}"
+                                },
+                                "VariableName": "HUDUIEntity",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
                                     "value": "Entity_[66333617097172]"
                                 },
                                 "InputControlVisibility": {
@@ -602,23 +625,6 @@
                             }
                         ],
                         "overridesUnused": [
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 1
-                                    },
-                                    "$type": "EntityId",
-                                    "value": ""
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{950D6CE8-ACB0-454F-88BE-13687B2F893A}"
-                                },
-                                "VariableName": "HUDUIEntity",
-                                "InitialValueSource": 1
-                            },
                             {
                                 "Datum": {
                                     "scriptCanvasType": {

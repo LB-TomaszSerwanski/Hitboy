@@ -97,7 +97,42 @@
                                 "guid": "{36803A92-877E-5241-84CE-BDA578C11B74}"
                             },
                             "assetHint": "assets/scriptcanvas/throwinghit.scriptcanvas"
-                        }
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "$type": "double",
+                                    "value": 1.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{DFC4D0EC-4318-49A5-9C92-F7207EE7DF9D}"
+                                },
+                                "VariableName": "Damage",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "$type": "double",
+                                    "value": 1.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{DFC4D0EC-4318-49A5-9C92-F7207EE7DF9D}"
+                                },
+                                "VariableName": "Damage",
+                                "InitialValueSource": 1
+                            }
+                        ]
                     }
                 },
                 "Component_[14421945589813534753]": {
