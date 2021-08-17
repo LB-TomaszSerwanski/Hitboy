@@ -1,0 +1,258 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ThrowingCube",
+        "Components": {
+            "Component_[13070232952705735517]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13070232952705735517
+            },
+            "Component_[13492218525204611882]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13492218525204611882,
+                "Parent Entity": ""
+            },
+            "Component_[13932546265126075163]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13932546265126075163
+            },
+            "Component_[14756341107134889235]": {
+                "$type": "EditorLockComponent",
+                "Id": 14756341107134889235
+            },
+            "Component_[18053237650021045263]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18053237650021045263
+            },
+            "Component_[3961362381780069713]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3961362381780069713
+            },
+            "Component_[4556846282967414745]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4556846282967414745
+            },
+            "Component_[5252718052070658363]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5252718052070658363
+            },
+            "Component_[5290239967225020474]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5290239967225020474
+            },
+            "Component_[6792818330675097508]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6792818330675097508
+            },
+            "Component_[7887235580681790971]": {
+                "$type": "SelectionComponent",
+                "Id": 7887235580681790971
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[396061298195884]": {
+            "Id": "Entity_[396061298195884]",
+            "Name": "ThrowingCube",
+            "Components": {
+                "Component_[1306322533614699128]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1306322533614699128
+                },
+                "Component_[13108272784457543150]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13108272784457543150
+                },
+                "Component_[16655785909929301407]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16655785909929301407
+                },
+                "Component_[17801361188293208064]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17801361188293208064
+                },
+                "Component_[1859962416894632940]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1859962416894632940,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.20000000298023225
+                    }
+                },
+                "Component_[2154652086968007132]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2154652086968007132
+                },
+                "Component_[3655932652228500392]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3655932652228500392,
+                    "m_name": "ThrowingHit",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{36803A92-877E-5241-84CE-BDA578C11B74}"
+                            },
+                            "assetHint": "assets/scriptcanvas/throwinghit.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{36803A92-877E-5241-84CE-BDA578C11B74}"
+                            },
+                            "assetHint": "assets/scriptcanvas/throwinghit.scriptcanvas"
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "$type": "double",
+                                    "value": 1.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{DFC4D0EC-4318-49A5-9C92-F7207EE7DF9D}"
+                                },
+                                "VariableName": "Damage",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "$type": "double",
+                                    "value": 1.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{DFC4D0EC-4318-49A5-9C92-F7207EE7DF9D}"
+                                },
+                                "VariableName": "Damage",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    }
+                },
+                "Component_[4690370276182755503]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4690370276182755503,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8F19FB6D-DF18-5CC0-B921-6755089004D7}",
+                                    "subId": 275006192
+                                },
+                                "assetHint": "materialeditor/viewportmodels/beveledcube.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5454387978770751174]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5454387978770751174,
+                    "ColliderConfiguration": {
+                        "CollisionGroupId": {
+                            "GroupId": "{0C13A6CB-4A87-4EA7-8E7F-751180B9B0C0}"
+                        },
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.5
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.20000000298023225,
+                                0.20000000298023225,
+                                0.20000000298023225
+                            ]
+                        },
+                        "PhysicsAsset": {
+                            "Configuration": {
+                                "Scale": [
+                                    0.20000000298023225,
+                                    0.20000000298023225,
+                                    0.20000000298023225
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Component_[5707274559785340574]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5707274559785340574,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1859962416894632940
+                        },
+                        {
+                            "ComponentId": 4690370276182755503,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5454387978770751174,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 8445155191331112039,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[6247579244884446898]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6247579244884446898
+                },
+                "Component_[6503870640689071099]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6503870640689071099
+                },
+                "Component_[8445155191331112039]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 8445155191331112039,
+                    "Configuration": {
+                        "entityId": "",
+                        "Initial angular velocity": [
+                            0.0,
+                            30.0,
+                            30.0
+                        ],
+                        "Interpolate Motion": true,
+                        "Compute Mass": false,
+                        "Mass": 20.0,
+                        "Centre of mass offset": [
+                            0.0,
+                            0.0,
+                            0.10000000149011612
+                        ],
+                        "Inertia tensor": {
+                            "roll": 0.0,
+                            "pitch": 0.0,
+                            "yaw": 0.0,
+                            "scale": 7.499998569488525
+                        }
+                    }
+                },
+                "Component_[9660576737277233439]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9660576737277233439
+                }
+            }
+        }
+    }
+}

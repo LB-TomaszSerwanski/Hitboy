@@ -1,0 +1,225 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ThrowingSphere",
+        "Components": {
+            "Component_[11712395328904782527]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11712395328904782527
+            },
+            "Component_[13389421776493491016]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13389421776493491016
+            },
+            "Component_[15982827921671894396]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15982827921671894396,
+                "Parent Entity": ""
+            },
+            "Component_[16420530097464589691]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16420530097464589691
+            },
+            "Component_[3038775619700686499]": {
+                "$type": "SelectionComponent",
+                "Id": 3038775619700686499
+            },
+            "Component_[3764376069190764904]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3764376069190764904
+            },
+            "Component_[398341731540693549]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 398341731540693549
+            },
+            "Component_[4340389725805731751]": {
+                "$type": "EditorLockComponent",
+                "Id": 4340389725805731751
+            },
+            "Component_[7833719188727081374]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7833719188727081374
+            },
+            "Component_[8429791403916547582]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8429791403916547582
+            },
+            "Component_[9428892415769736814]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9428892415769736814
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[887487161236908]": {
+            "Id": "Entity_[887487161236908]",
+            "Name": "ThrowingSphere",
+            "Components": {
+                "Component_[1234860895698726322]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1234860895698726322
+                },
+                "Component_[1243312399984816602]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1243312399984816602
+                },
+                "Component_[13001833951007790715]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13001833951007790715,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6DE0E9A8-A1C7-5D0F-9407-4E627C1F223C}",
+                                    "subId": 284780167
+                                },
+                                "assetHint": "models/sphere.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13949422608127986285]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 13949422608127986285,
+                    "m_name": "ThrowingHit",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{36803A92-877E-5241-84CE-BDA578C11B74}"
+                            },
+                            "assetHint": "assets/scriptcanvas/throwinghit.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{36803A92-877E-5241-84CE-BDA578C11B74}"
+                            },
+                            "assetHint": "assets/scriptcanvas/throwinghit.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[14421945589813534753]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14421945589813534753,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.200166255235672
+                        ],
+                        "UniformScale": 0.20000000298023225
+                    }
+                },
+                "Component_[1473720020837571474]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1473720020837571474
+                },
+                "Component_[17848930535900614218]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 17848930535900614218,
+                    "Configuration": {
+                        "entityId": "",
+                        "Linear damping": 0.30000001192092898,
+                        "Angular damping": 0.20000000298023225,
+                        "Interpolate Motion": true,
+                        "Compute Mass": false,
+                        "Mass": 10.0,
+                        "Centre of mass offset": [
+                            0.0,
+                            0.0,
+                            0.10000000894069672
+                        ],
+                        "Inertia tensor": {
+                            "roll": 0.0,
+                            "pitch": 0.0,
+                            "yaw": 0.0,
+                            "scale": 25.000009536743165
+                        }
+                    }
+                },
+                "Component_[1801240342022046505]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1801240342022046505
+                },
+                "Component_[3298933180283644063]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3298933180283644063,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14421945589813534753
+                        },
+                        {
+                            "ComponentId": 13001833951007790715,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7984407528455707635,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 17848930535900614218,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[4898095386799558535]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4898095386799558535
+                },
+                "Component_[7224254257708257787]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7224254257708257787
+                },
+                "Component_[7984407528455707635]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7984407528455707635,
+                    "ColliderConfiguration": {
+                        "CollisionGroupId": {
+                            "GroupId": "{0C13A6CB-4A87-4EA7-8E7F-751180B9B0C0}"
+                        },
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.5
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Scale": [
+                                0.20000000298023225,
+                                0.20000000298023225,
+                                0.20000000298023225
+                            ]
+                        },
+                        "PhysicsAsset": {
+                            "Configuration": {
+                                "Scale": [
+                                    0.20000000298023225,
+                                    0.20000000298023225,
+                                    0.20000000298023225
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Component_[9151071012464828570]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9151071012464828570
+                },
+                "Component_[9546626809044065226]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9546626809044065226
+                }
+            }
+        }
+    }
+}
