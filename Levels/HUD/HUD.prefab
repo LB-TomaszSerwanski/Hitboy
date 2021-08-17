@@ -86,7 +86,7 @@
                     "Transform Data": {
                         "Translate": [
                             1.0079612731933594,
-                            -8.686365127563477,
+                            -13.531994819641114,
                             -0.28091752529144289
                         ],
                         "Rotate": [
@@ -147,6 +147,7 @@
                     "$type": "EditorColliderComponent",
                     "Id": 16864275675164263255,
                     "ColliderConfiguration": {
+                        "InSceneQueries": false,
                         "Position": [
                             0.0,
                             0.0,
@@ -471,9 +472,9 @@
                                     "Value": 850104567
                                 },
                                 "VariableId": {
-                                    "m_id": "{F6DF1308-A4FE-4F6A-BB54-85C10E460203}"
+                                    "m_id": "{2E21F853-72E6-4533-9476-77917B563273}"
                                 },
-                                "VariableName": "Camera1 [8126328336624867324]"
+                                "VariableName": "FaceHP"
                             }
                         ]
                     }
