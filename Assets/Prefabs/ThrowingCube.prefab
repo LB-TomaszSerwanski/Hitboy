@@ -126,7 +126,7 @@
                                         "m_type": 3
                                     },
                                     "$type": "double",
-                                    "value": 1.0
+                                    "value": 0.5
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -218,6 +218,11 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6247579244884446898
                 },
+                "Component_[6445003031486645216]": {
+                    "$type": "EditorDiskShapeComponent",
+                    "Id": 6445003031486645216,
+                    "GameView": true
+                },
                 "Component_[6503870640689071099]": {
                     "$type": "EditorLockComponent",
                     "Id": 6503870640689071099
@@ -227,11 +232,6 @@
                     "Id": 8445155191331112039,
                     "Configuration": {
                         "entityId": "",
-                        "Initial angular velocity": [
-                            0.0,
-                            30.0,
-                            30.0
-                        ],
                         "Interpolate Motion": true,
                         "Compute Mass": false,
                         "Mass": 20.0,

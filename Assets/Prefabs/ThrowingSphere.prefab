@@ -121,7 +121,7 @@
                                         "m_type": 3
                                     },
                                     "$type": "double",
-                                    "value": 1.0
+                                    "value": 0.5
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -161,7 +161,7 @@
                         "Angular damping": 0.20000000298023225,
                         "Interpolate Motion": true,
                         "Compute Mass": false,
-                        "Mass": 10.0,
+                        "Mass": 14.999999046325684,
                         "Centre of mass offset": [
                             0.0,
                             0.0,
@@ -171,13 +171,18 @@
                             "roll": 0.0,
                             "pitch": 0.0,
                             "yaw": 0.0,
-                            "scale": 25.000009536743165
+                            "scale": 16.666669845581056
                         }
                     }
                 },
                 "Component_[1801240342022046505]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 1801240342022046505
+                },
+                "Component_[2875497861592914341]": {
+                    "$type": "EditorDiskShapeComponent",
+                    "Id": 2875497861592914341,
+                    "GameView": true
                 },
                 "Component_[3298933180283644063]": {
                     "$type": "EditorInspectorComponent",
