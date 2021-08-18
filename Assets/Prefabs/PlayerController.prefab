@@ -645,7 +645,7 @@
                                     "value": {
                                         "machine_gun": 0.1,
                                         "pistol": 0.6,
-                                        "sniper_rifle": 7.0
+                                        "sniper_rifle": 4.0
                                     }
                                 },
                                 "InputControlVisibility": {
