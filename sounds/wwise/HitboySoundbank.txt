@@ -1,0 +1,31 @@
+Event	ID	Name			Wwise Object Path	Notes
+	91271695	Stop_Machine			\Default Work Unit\Stop_Machine	
+	479606568	Play_ButtonHover			\Default Work Unit\Play_ButtonHover	
+	490697002	Stop_ButtonHover			\Default Work Unit\Stop_ButtonHover	
+	757587954	Stop_PistolReload			\Default Work Unit\Stop_PistolReload	
+	937184737	Stop_Sniper			\Default Work Unit\Stop_Sniper	
+	1427483701	Play_Machine			\Default Work Unit\Play_Machine	
+	2514737299	Stop_UiMusic			\Default Work Unit\Stop_UiMusic	
+	2825188396	Play_SniperReload			\Default Work Unit\Play_SniperReload	
+	2846104839	Play_Pistol			\Default Work Unit\Play_Pistol	
+	2920199361	Play_UiMusic			\Default Work Unit\Play_UiMusic	
+	3849153871	Play_Sniper			\Default Work Unit\Play_Sniper	
+	4007313598	Stop_SniperReload			\Default Work Unit\Stop_SniperReload	
+	4072794500	Play_PistolReload			\Default Work Unit\Play_PistolReload	
+	4155745061	Stop_Pistol			\Default Work Unit\Stop_Pistol	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	507429082	MachineVolume			\Default Work Unit\MachineVolume	
+	1257466562	SniperVolume			\Default Work Unit\SniperVolume	
+	1849724198	PistolVolume			\Default Work Unit\PistolVolume	
+	2580456978	UiMusicVolume			\Default Work Unit\UiMusicVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8392211	UI_Music	C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\SFX\UI_Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Music		8467028
+	212525998	Sniper	C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\SFX\Sniper_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sniper		137094
+	658085052	ButtonHover	C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\SFX\ButtonHover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ButtonHover		16616
+	679951033	Machine	C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\SFX\Machine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machine		38882
+	922934841	Pistol	C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\SFX\Pistol_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pistol		38882
+	990461143	SniperReload	C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\SFX\SniperReload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SniperReload		274496
+	1061427889	PistolReload	C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\SFX\PistolReload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PistolReload		278592
+

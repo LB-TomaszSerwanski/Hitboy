@@ -504,6 +504,16 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 14794677700018396338
                 },
+                "Component_[1604559072534033860]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 1604559072534033860,
+                    "Play Trigger": {
+                        "controlName": "Play_Pistol"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "Stop_Pistol"
+                    }
+                },
                 "Component_[17019740356856428988]": {
                     "$type": "GenericComponentWrapper",
                     "Id": 17019740356856428988,
@@ -671,6 +681,13 @@
                 "Component_[3370922023852053834]": {
                     "$type": "EditorLockComponent",
                     "Id": 3370922023852053834
+                },
+                "Component_[5184814769618685349]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 5184814769618685349,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
                 },
                 "Component_[5925734233021370707]": {
                     "$type": "EditorPendingCompositionComponent",

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{63D667A2-433A-410A-AD10-6532107CB237}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{63D667A2-433A-410A-AD10-6532107CB237}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="PistolVolume" ID="{F563F8F0-CF8E-471E-A362-94E0D48D415D}"/>
+				<GameParameter Name="SniperVolume" ID="{9F6FFCD4-CAF6-4BF7-A7E1-F6241C292105}"/>
+				<GameParameter Name="MachineVolume" ID="{63BC1E33-EF7D-4439-89FA-EAA50DA60933}"/>
+				<GameParameter Name="UiMusicVolume" ID="{9D8FD2DC-4FE0-497D-8B4F-1A1E651179B4}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

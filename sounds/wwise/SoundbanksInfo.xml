@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\GPC-602\.o3de\Projects\Hitboy\sounds\wwise_project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1230548685" Language="SFX" Hash="1077846912">
+			<ObjectPath>\SoundBanks\Default Work Unit\HitboySoundbank</ObjectPath>
+			<ShortName>HitboySoundbank</ShortName>
+			<Path>HitboySoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="479606568" Name="Play_ButtonHover" ObjectPath="\Events\Default Work Unit\Play_ButtonHover">
+					<IncludedMemoryFiles>
+						<File Id="658085052" Language="SFX">
+							<ShortName>ButtonHover.wav</ShortName>
+							<Path>SFX\ButtonHover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1427483701" Name="Play_Machine" ObjectPath="\Events\Default Work Unit\Play_Machine">
+					<IncludedMemoryFiles>
+						<File Id="679951033" Language="SFX">
+							<ShortName>Machine.wav</ShortName>
+							<Path>SFX\Machine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2846104839" Name="Play_Pistol" ObjectPath="\Events\Default Work Unit\Play_Pistol">
+					<IncludedMemoryFiles>
+						<File Id="922934841" Language="SFX">
+							<ShortName>Pistol.wav</ShortName>
+							<Path>SFX\Pistol_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4072794500" Name="Play_PistolReload" ObjectPath="\Events\Default Work Unit\Play_PistolReload">
+					<IncludedMemoryFiles>
+						<File Id="1061427889" Language="SFX">
+							<ShortName>PistolReload.wav</ShortName>
+							<Path>SFX\PistolReload_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3849153871" Name="Play_Sniper" ObjectPath="\Events\Default Work Unit\Play_Sniper">
+					<IncludedMemoryFiles>
+						<File Id="212525998" Language="SFX">
+							<ShortName>Sniper.wav</ShortName>
+							<Path>SFX\Sniper_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2825188396" Name="Play_SniperReload" ObjectPath="\Events\Default Work Unit\Play_SniperReload">
+					<IncludedMemoryFiles>
+						<File Id="990461143" Language="SFX">
+							<ShortName>SniperReload.wav</ShortName>
+							<Path>SFX\SniperReload_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2920199361" Name="Play_UiMusic" ObjectPath="\Events\Default Work Unit\Play_UiMusic">
+					<IncludedMemoryFiles>
+						<File Id="8392211" Language="SFX">
+							<ShortName>UI_Music.wav</ShortName>
+							<Path>SFX\UI_Music_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="490697002" Name="Stop_ButtonHover" ObjectPath="\Events\Default Work Unit\Stop_ButtonHover"/>
+				<Event Id="91271695" Name="Stop_Machine" ObjectPath="\Events\Default Work Unit\Stop_Machine"/>
+				<Event Id="4155745061" Name="Stop_Pistol" ObjectPath="\Events\Default Work Unit\Stop_Pistol"/>
+				<Event Id="757587954" Name="Stop_PistolReload" ObjectPath="\Events\Default Work Unit\Stop_PistolReload"/>
+				<Event Id="937184737" Name="Stop_Sniper" ObjectPath="\Events\Default Work Unit\Stop_Sniper"/>
+				<Event Id="4007313598" Name="Stop_SniperReload" ObjectPath="\Events\Default Work Unit\Stop_SniperReload"/>
+				<Event Id="2514737299" Name="Stop_UiMusic" ObjectPath="\Events\Default Work Unit\Stop_UiMusic"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="8392211" Language="SFX">
+					<ShortName>UI_Music.wav</ShortName>
+					<Path>SFX\UI_Music_10C4C929.wem</Path>
+				</File>
+				<File Id="212525998" Language="SFX">
+					<ShortName>Sniper.wav</ShortName>
+					<Path>SFX\Sniper_10C4C929.wem</Path>
+				</File>
+				<File Id="658085052" Language="SFX">
+					<ShortName>ButtonHover.wav</ShortName>
+					<Path>SFX\ButtonHover_10C4C929.wem</Path>
+				</File>
+				<File Id="679951033" Language="SFX">
+					<ShortName>Machine.wav</ShortName>
+					<Path>SFX\Machine_10C4C929.wem</Path>
+				</File>
+				<File Id="922934841" Language="SFX">
+					<ShortName>Pistol.wav</ShortName>
+					<Path>SFX\Pistol_10C4C929.wem</Path>
+				</File>
+				<File Id="990461143" Language="SFX">
+					<ShortName>SniperReload.wav</ShortName>
+					<Path>SFX\SniperReload_10C4C929.wem</Path>
+				</File>
+				<File Id="1061427889" Language="SFX">
+					<ShortName>PistolReload.wav</ShortName>
+					<Path>SFX\PistolReload_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="507429082" Name="MachineVolume" ObjectPath="\Game Parameters\Default Work Unit\MachineVolume"/>
+				<GameParameter Id="1257466562" Name="SniperVolume" ObjectPath="\Game Parameters\Default Work Unit\SniperVolume"/>
+				<GameParameter Id="1849724198" Name="PistolVolume" ObjectPath="\Game Parameters\Default Work Unit\PistolVolume"/>
+				<GameParameter Id="2580456978" Name="UiMusicVolume" ObjectPath="\Game Parameters\Default Work Unit\UiMusicVolume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2679457191">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

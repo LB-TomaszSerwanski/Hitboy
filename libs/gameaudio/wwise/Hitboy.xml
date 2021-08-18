@@ -1,0 +1,60 @@
+<ATLConfig atl_name="Hitboy">
+	<AudioTriggers>
+		<ATLTrigger atl_name="Stop_PistolReload">
+			<WwiseEvent wwise_name="Stop_PistolReload"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_PistolReload">
+			<WwiseEvent wwise_name="Play_PistolReload"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Stop_UiMusic">
+			<WwiseEvent wwise_name="Stop_UiMusic"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_UiMusic">
+			<WwiseEvent wwise_name="Play_UiMusic"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Stop_ButtonHover">
+			<WwiseEvent wwise_name="Stop_ButtonHover"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_ButtonHover">
+			<WwiseEvent wwise_name="Play_ButtonHover"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Stop_SniperReload">
+			<WwiseEvent wwise_name="Stop_SniperReload"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_SniperReload">
+			<WwiseEvent wwise_name="Play_SniperReload"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Stop_Machine">
+			<WwiseEvent wwise_name="Stop_Machine"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Stop_Sniper">
+			<WwiseEvent wwise_name="Stop_Sniper"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Stop_Pistol">
+			<WwiseEvent wwise_name="Stop_Pistol"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_Pistol">
+			<WwiseEvent wwise_name="Play_Pistol"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_Machine">
+			<WwiseEvent wwise_name="Play_Machine"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Play_Sniper">
+			<WwiseEvent wwise_name="Play_Sniper"/>
+		</ATLTrigger>
+	</AudioTriggers>
+	<AudioRtpcs>
+		<ATLRtpc atl_name="rtpc">
+			<WwiseRtpc wwise_name="MachineVolume"/>
+			<WwiseRtpc wwise_name="PistolVolume"/>
+			<WwiseRtpc wwise_name="SniperVolume"/>
+			<WwiseRtpc wwise_name="UiMusicVolume"/>
+		</ATLRtpc>
+	</AudioRtpcs>
+	<AudioPreloads>
+		<ATLPreloadRequest atl_name="preload" atl_type="AutoLoad">
+			<WwiseFile wwise_name="hitboysoundbank.bnk"/>
+		</ATLPreloadRequest>
+	</AudioPreloads>
+</ATLConfig>
+

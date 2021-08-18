@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="boom1" ID="{4D676C5C-A17C-4EC2-BC8D-6B26ED0D2121}" ShortID="113165314">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{4E83750D-AEC2-4C69-B3C7-D7A416B7605D}" ShortID="663046494">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PistolVolume" ID="{F563F8F0-CF8E-471E-A362-94E0D48D415D}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0827AE04-F4B1-4CD5-A080-D41C31DDCCD8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="boom1" ID="{E6A815B8-ECE6-4DA7-88EC-E33DC873D093}">
+							<Language>SFX</Language>
+							<AudioFile>boom1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="487645776"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="boom1" ID="{E6A815B8-ECE6-4DA7-88EC-E33DC873D093}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Sniper" ID="{5756BABD-8812-4873-B3D0-CE3E9A2140BA}" ShortID="791013523">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{1EE9D29A-7A11-48B8-979D-52ACC9CEEBD9}" ShortID="177071953">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SniperVolume" ID="{9F6FFCD4-CAF6-4BF7-A7E1-F6241C292105}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{13174A9D-034E-44F5-BBD9-D0ACE1142EF5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sniper" ID="{D6BA953C-912C-415D-A1CF-38D7551F39D5}">
+							<Language>SFX</Language>
+							<AudioFile>Sniper.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="212525998"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Sniper" ID="{D6BA953C-912C-415D-A1CF-38D7551F39D5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Machine" ID="{358D586A-DB50-4A09-871F-4B21C72D1CB2}" ShortID="367551281">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{BE49015F-1349-4D30-906B-1EED58D5780C}" ShortID="1072567946">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MachineVolume" ID="{63BC1E33-EF7D-4439-89FA-EAA50DA60933}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CF93493B-3363-478C-BD10-71E6D20B8042}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Machine" ID="{CFCD6E2F-7C30-4C61-8E0A-0C3420A35E48}">
+							<Language>SFX</Language>
+							<AudioFile>Machine.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="679951033"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Machine" ID="{CFCD6E2F-7C30-4C61-8E0A-0C3420A35E48}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pistol" ID="{075181C3-F049-4D2E-9237-D9FDEDB7ACEF}" ShortID="424837408">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{7F682EDA-4BA8-443D-BF65-1F95B063EF6D}" ShortID="738378298">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PistolVolume" ID="{F563F8F0-CF8E-471E-A362-94E0D48D415D}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0F2530F0-3481-4BE6-83AD-991F25B4E0AF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pistol" ID="{0FC283F3-723A-4109-953C-603BE5E8D947}">
+							<Language>SFX</Language>
+							<AudioFile>Pistol.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="922934841"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Pistol" ID="{0FC283F3-723A-4109-953C-603BE5E8D947}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ButtonHover" ID="{4421B0AB-CC5B-4696-B2C4-6FCA94A16F19}" ShortID="886003725">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{28CE7C06-C525-487F-8FC6-3A931F2B5C60}" ShortID="323351480">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PistolVolume" ID="{F563F8F0-CF8E-471E-A362-94E0D48D415D}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E6F13E3E-7D0E-4515-AAA4-574F445D6EA5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ButtonHover" ID="{29A6DD08-2BC1-41A9-9A8A-96D91EA1C8C9}">
+							<Language>SFX</Language>
+							<AudioFile>ButtonHover.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="658085052"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ButtonHover" ID="{29A6DD08-2BC1-41A9-9A8A-96D91EA1C8C9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PistolReload" ID="{69E1C2E0-5F37-4B0C-94BD-37C3539BC03E}" ShortID="789685342">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{980F0F1F-06AE-4F2C-9148-5B7289326438}" ShortID="352385362">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PistolVolume" ID="{F563F8F0-CF8E-471E-A362-94E0D48D415D}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{25B80F03-A282-4204-9D65-6FC0951BA90A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PistolReload" ID="{BA7B6989-8C98-4C2F-B6D0-08378EFF9097}">
+							<Language>SFX</Language>
+							<AudioFile>PistolReload.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1061427889"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PistolReload" ID="{BA7B6989-8C98-4C2F-B6D0-08378EFF9097}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SniperReload" ID="{08B50EEA-2938-4A3F-860D-EFFAAFE3C5DA}" ShortID="292896578">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{55C0602B-2B7F-42C1-8B5F-F7C38DFAF083}" ShortID="831721514">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PistolVolume" ID="{F563F8F0-CF8E-471E-A362-94E0D48D415D}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C25338E3-6529-4435-8C02-B7B3733686D2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SniperReload" ID="{80478778-727A-48A4-BA57-6B2DAB81A5F2}">
+							<Language>SFX</Language>
+							<AudioFile>SniperReload.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="990461143"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SniperReload" ID="{80478778-727A-48A4-BA57-6B2DAB81A5F2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UI_Music" ID="{EFE0C83A-5AA3-4821-AAD2-91C7CF68A730}" ShortID="791449041">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{71BA8D0E-088B-4F74-9352-094EE14FA4F6}" ShortID="560337648">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="UiMusicVolume" ID="{9D8FD2DC-4FE0-497D-8B4F-1A1E651179B4}" WorkUnitID="{63D667A2-433A-410A-AD10-6532107CB237}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{75156BF0-2C9A-4AC6-93EA-F53A2E9FC531}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2620971D-C44F-4481-949C-20B7547730A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{81B5ADC0-4C41-422C-9C7B-4C2A8D2763B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UI_Music" ID="{3B8347EF-7A87-4D5C-A8A8-70F9F8FAEE67}">
+							<Language>SFX</Language>
+							<AudioFile>UI_Music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="8392211"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="UI_Music" ID="{3B8347EF-7A87-4D5C-A8A8-70F9F8FAEE67}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E48D94E1-C21A-47B8-A711-8E2A80F49659}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E48D94E1-C21A-47B8-A711-8E2A80F49659}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Sniper" ID="{3D33785A-231C-434F-BF3F-7A6F225BD2DD}">
+					<ChildrenList>
+						<Action Name="" ID="{A9CFC567-E124-461F-A963-4AB28A07D210}" ShortID="853443940">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sniper" ID="{5756BABD-8812-4873-B3D0-CE3E9A2140BA}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Sniper" ID="{A3DA5C0E-C283-4C3D-98E3-198F9797A4ED}">
+					<ChildrenList>
+						<Action Name="" ID="{822109DC-6814-4BAF-881C-7C351BE09479}" ShortID="375420692">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sniper" ID="{5756BABD-8812-4873-B3D0-CE3E9A2140BA}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pistol" ID="{A0CB2B19-CFC0-43A1-B1D8-9DAB7F9064B7}">
+					<ChildrenList>
+						<Action Name="" ID="{9FACCEB9-5627-48E9-A938-3F59FCC2C472}" ShortID="680483980">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pistol" ID="{075181C3-F049-4D2E-9237-D9FDEDB7ACEF}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Pistol" ID="{7F15B49C-1DC3-4740-9BFB-8816286B26BF}">
+					<ChildrenList>
+						<Action Name="" ID="{A3F4FFE0-A440-40B4-BDEA-AC76846C3841}" ShortID="627547158">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pistol" ID="{075181C3-F049-4D2E-9237-D9FDEDB7ACEF}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Machine" ID="{5FE6AF9B-9BAA-4A1E-8D68-91759CE804CD}">
+					<ChildrenList>
+						<Action Name="" ID="{6752749E-5EF6-4C5B-AEE9-E5122FA210C3}" ShortID="811505403">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Machine" ID="{358D586A-DB50-4A09-871F-4B21C72D1CB2}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Machine" ID="{92523418-6A94-4095-9EB6-C2DF2CD2FEEE}">
+					<ChildrenList>
+						<Action Name="" ID="{D1FD09D6-7BFC-4EC3-9D2C-0A4D30A48151}" ShortID="873187022">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Machine" ID="{358D586A-DB50-4A09-871F-4B21C72D1CB2}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UiMusic" ID="{1D7FA95B-D279-4258-A0CE-92082AB35347}">
+					<ChildrenList>
+						<Action Name="" ID="{480B1E94-5224-4BDB-9600-5099D0742D19}" ShortID="777849146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Music" ID="{EFE0C83A-5AA3-4821-AAD2-91C7CF68A730}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_UiMusic" ID="{ECEF6ECD-00E5-4CAD-9D38-07BE16067952}">
+					<ChildrenList>
+						<Action Name="" ID="{C23719D3-0B80-40E2-B236-405BE566BCE4}" ShortID="34158142">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Music" ID="{EFE0C83A-5AA3-4821-AAD2-91C7CF68A730}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PistolReload" ID="{FB69C8BC-4546-4083-B468-E030418173D2}">
+					<ChildrenList>
+						<Action Name="" ID="{D588F957-8BC4-4BF1-80B0-7A464872F1C4}" ShortID="1014218350">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PistolReload" ID="{69E1C2E0-5F37-4B0C-94BD-37C3539BC03E}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PistolReload" ID="{4201F04F-A99D-441A-9BC7-A8E29D383680}">
+					<ChildrenList>
+						<Action Name="" ID="{12EA72B4-1C79-495E-B950-39FD1C40A24D}" ShortID="278303676">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PistolReload" ID="{69E1C2E0-5F37-4B0C-94BD-37C3539BC03E}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ButtonHover" ID="{534662AE-C25C-444E-BDB4-A9267E169512}">
+					<ChildrenList>
+						<Action Name="" ID="{CD92254B-FAC0-4CF3-ACD7-C3680688D055}" ShortID="617822126">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButtonHover" ID="{4421B0AB-CC5B-4696-B2C4-6FCA94A16F19}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ButtonHover" ID="{41AB1E74-7D13-44C3-88A6-76F068C39F8C}">
+					<ChildrenList>
+						<Action Name="" ID="{B12DFE90-E6AB-406E-A2E7-23578C6C3C6B}" ShortID="21919419">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButtonHover" ID="{4421B0AB-CC5B-4696-B2C4-6FCA94A16F19}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SniperReload" ID="{1809F8E5-22D7-48CC-AC56-E0AEC0EE3814}">
+					<ChildrenList>
+						<Action Name="" ID="{ADF7823E-4B08-4B40-9C34-C9DAC1C5E27B}" ShortID="100824366">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SniperReload" ID="{08B50EEA-2938-4A3F-860D-EFFAAFE3C5DA}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SniperReload" ID="{0C63859B-B16A-4DA8-BC08-42E0C6706399}">
+					<ChildrenList>
+						<Action Name="" ID="{B99DF7DC-AD30-4F7B-BCE0-4FF3DBDE6BAE}" ShortID="101637484">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SniperReload" ID="{08B50EEA-2938-4A3F-860D-EFFAAFE3C5DA}" WorkUnitID="{277F4A4C-F408-4E6A-B7C4-2EA219F35967}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
