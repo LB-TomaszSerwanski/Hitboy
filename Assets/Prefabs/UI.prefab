@@ -59,6 +59,13 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 10164352665446820809
                 },
+                "Component_[13265217791625933738]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 13265217791625933738,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[13553698209203908363]": {
                     "$type": "GenericComponentWrapper",
                     "Id": 13553698209203908363,
@@ -83,6 +90,16 @@
                 "Component_[16778600368733026515]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 16778600368733026515
+                },
+                "Component_[17042646529254867437]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 17042646529254867437,
+                    "Play Trigger": {
+                        "controlName": "Play_UiMusic"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "Stop_UiMusic"
+                    }
                 },
                 "Component_[255021131764774571]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -129,22 +146,58 @@
                         "overridesUnused": [
                             {
                                 "Datum": {
-                                    "m_isUntypedStorage": false,
-                                    "m_type": {
+                                    "scriptCanvasType": {
                                         "m_type": 1
                                     },
-                                    "m_datumStorage": {
-                                        "$type": "EntityId",
-                                        "value": ""
-                                    }
+                                    "$type": "EntityId",
+                                    "value": ""
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
                                 },
                                 "VariableId": {
-                                    "m_id": "{F6DF1308-A4FE-4F6A-BB54-85C10E460203}"
+                                    "m_id": "{2E21F853-72E6-4533-9476-77917B563273}"
                                 },
-                                "VariableName": "Camera1 [8126328336624867324]"
+                                "VariableName": "FaceHP"
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 8
+                                    },
+                                    "$type": "Vector3",
+                                    "value": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{9F68524F-2339-4AEA-A423-90A0209D589D}"
+                                },
+                                "VariableName": "PreviousPosition"
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 9
+                                    },
+                                    "$type": "Vector2",
+                                    "value": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{514E34B2-103B-4B5B-B136-3892DC109763}"
+                                },
+                                "VariableName": "Variable 14"
                             }
                         ]
                     }
