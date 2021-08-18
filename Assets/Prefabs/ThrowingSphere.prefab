@@ -179,11 +179,6 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 1801240342022046505
                 },
-                "Component_[2875497861592914341]": {
-                    "$type": "EditorDiskShapeComponent",
-                    "Id": 2875497861592914341,
-                    "GameView": true
-                },
                 "Component_[3298933180283644063]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 3298933180283644063,

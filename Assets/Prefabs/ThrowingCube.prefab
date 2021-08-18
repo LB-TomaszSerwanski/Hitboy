@@ -218,11 +218,6 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6247579244884446898
                 },
-                "Component_[6445003031486645216]": {
-                    "$type": "EditorDiskShapeComponent",
-                    "Id": 6445003031486645216,
-                    "GameView": true
-                },
                 "Component_[6503870640689071099]": {
                     "$type": "EditorLockComponent",
                     "Id": 6503870640689071099
