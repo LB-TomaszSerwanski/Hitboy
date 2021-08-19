@@ -1,0 +1,169 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Damage_20",
+        "Components": {
+            "Component_[12958758104102338099]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12958758104102338099,
+                "Parent Entity": ""
+            },
+            "Component_[15000194401938725418]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15000194401938725418
+            },
+            "Component_[2561154122280631262]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2561154122280631262
+            },
+            "Component_[2586745492463766921]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2586745492463766921
+            },
+            "Component_[2732570306784448309]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2732570306784448309
+            },
+            "Component_[4607100169516954707]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4607100169516954707
+            },
+            "Component_[5780303856961361324]": {
+                "$type": "SelectionComponent",
+                "Id": 5780303856961361324
+            },
+            "Component_[7252116928177192480]": {
+                "$type": "EditorLockComponent",
+                "Id": 7252116928177192480
+            },
+            "Component_[7254916625289601309]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7254916625289601309
+            },
+            "Component_[7744784349257326073]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7744784349257326073
+            },
+            "Component_[9089200505535612354]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9089200505535612354
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2419387940349300]": {
+            "Id": "Entity_[2419387940349300]",
+            "Name": "Damage_20",
+            "Components": {
+                "Component_[11078839050021818315]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 11078839050021818315,
+                    "Configuration": {
+                        "entityId": "",
+                        "CollisionGroupId": {
+                            "GroupId": "{706A5207-C8D0-4BB7-BAD0-35485A5FA678}"
+                        },
+                        "Material": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Height": 0.5000100135803223,
+                            "Radius": 0.009999999776482582
+                        }
+                    }
+                },
+                "Component_[13657417978105332045]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13657417978105332045
+                },
+                "Component_[14352419243159176675]": {
+                    "$type": "EditorCharacterGameplayComponent",
+                    "Id": 14352419243159176675,
+                    "GameplayConfig": {
+                        "GravityMultiplier": -1.0
+                    }
+                },
+                "Component_[17029703339942940147]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17029703339942940147
+                },
+                "Component_[17476680212667279568]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17476680212667279568,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9930398482769396751
+                        },
+                        {
+                            "ComponentId": 9107778161238012157,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11078839050021818315,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 14352419243159176675,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[2996443519909456342]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2996443519909456342
+                },
+                "Component_[4278402925214311998]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4278402925214311998
+                },
+                "Component_[5566729609498850202]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5566729609498850202
+                },
+                "Component_[7799321517466636520]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7799321517466636520
+                },
+                "Component_[8268377509121398110]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8268377509121398110
+                },
+                "Component_[9107778161238012157]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 9107778161238012157,
+                    "m_name": "Damage_1",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{C78EAB18-9B25-5786-839C-2768FD353094}"
+                            },
+                            "assetHint": "assets/scriptcanvas/damage_1.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{C78EAB18-9B25-5786-839C-2768FD353094}"
+                            },
+                            "assetHint": "assets/scriptcanvas/damage_1.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[9892008518806302911]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9892008518806302911
+                },
+                "Component_[9930398482769396751]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9930398482769396751,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

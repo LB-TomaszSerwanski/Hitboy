@@ -6,10 +6,15 @@
             "name": "ground_grass",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.ground_grass"
-                ],
-                "unselectedNodes": [
-                    {},
+                    "RootNode.ground_grass",
+                    "RootNode.ground_grass.ground_grass_1",
+                    "RootNode.ground_grass.ground_grass_2",
+                    "RootNode.ground_grass.ground_grass_1.transform",
+                    "RootNode.ground_grass.ground_grass_1.map1",
+                    "RootNode.ground_grass.ground_grass_1.grass",
+                    "RootNode.ground_grass.ground_grass_2.transform",
+                    "RootNode.ground_grass.ground_grass_2.map1",
+                    "RootNode.ground_grass.ground_grass_2.grass",
                     "RootNode"
                 ]
             },
@@ -25,9 +30,16 @@
             "name": "ground_grass",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.ground_grass"
+                    "RootNode.ground_grass",
+                    "RootNode.ground_grass.ground_grass_1",
+                    "RootNode.ground_grass.ground_grass_2",
+                    "RootNode.ground_grass.ground_grass_1.transform",
+                    "RootNode.ground_grass.ground_grass_1.map1",
+                    "RootNode.ground_grass.ground_grass_1.grass",
+                    "RootNode.ground_grass.ground_grass_2.transform",
+                    "RootNode.ground_grass.ground_grass_2.map1",
+                    "RootNode.ground_grass.ground_grass_2.grass"
                 ]
             },
             "rules": {

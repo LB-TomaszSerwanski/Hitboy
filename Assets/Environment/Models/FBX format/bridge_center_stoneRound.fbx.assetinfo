@@ -1,0 +1,56 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "bridge_center_stoneRound",
+            "selectedRootBone": "RootNode",
+            "id": "{ECDB115B-C4D8-5358-AAC5-D4C14842450B}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{EA7209F2-2F81-5D0E-93F4-19DDE916EE27}",
+            "name": "bridge_center_stoneRound",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.bridge_center_stoneRound",
+                    "RootNode.bridge_center_stoneRound.bridge_center_stoneRound_1",
+                    "RootNode.bridge_center_stoneRound.bridge_center_stoneRound_2"
+                ]
+            },
+            "MaterialSlots": [
+                "stoneDark",
+                "stone"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "bridge_center_stoneRound",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.bridge_center_stoneRound",
+                    "RootNode.bridge_center_stoneRound.bridge_center_stoneRound_1",
+                    "RootNode.bridge_center_stoneRound.bridge_center_stoneRound_2"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{3E35A00E-084D-52D5-B992-9A9A60FEC474}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

@@ -126,7 +126,7 @@
                                         "m_type": 3
                                     },
                                     "$type": "double",
-                                    "value": 0.5
+                                    "value": 0.0
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -177,9 +177,9 @@
                         "ShapeType": 1,
                         "Box": {
                             "Scale": [
-                                0.20000000298023225,
-                                0.20000000298023225,
-                                0.20000000298023225
+                                0.04000000283122063,
+                                0.04000000283122063,
+                                0.04000000283122063
                             ]
                         },
                         "PhysicsAsset": {
@@ -229,7 +229,7 @@
                         "entityId": "",
                         "Interpolate Motion": true,
                         "Compute Mass": false,
-                        "Mass": 20.0,
+                        "Mass": 6.0,
                         "Centre of mass offset": [
                             0.0,
                             0.0,
@@ -239,7 +239,7 @@
                             "roll": 0.0,
                             "pitch": 0.0,
                             "yaw": 0.0,
-                            "scale": 7.499998569488525
+                            "scale": 25.0
                         }
                     }
                 },

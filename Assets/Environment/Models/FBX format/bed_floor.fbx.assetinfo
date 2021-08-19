@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "bed_floor",
+            "selectedRootBone": "RootNode",
+            "id": "{C560B237-C14C-574A-888C-8CA6D75BE217}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{D2B37044-D3C6-59B5-9F89-F93898B15758}",
+            "name": "bed_floor",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.bed_floor",
+                    "RootNode.bed_floor.bed_floor_1",
+                    "RootNode.bed_floor.bed_floor_2"
+                ]
+            },
+            "MaterialSlots": [
+                "woodBirch",
+                "leafsDark",
+                "_defaultMat"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "bed_floor",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.bed_floor",
+                    "RootNode.bed_floor.bed_floor_1",
+                    "RootNode.bed_floor.bed_floor_2"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{A46A6DF5-43B4-5AB1-BFC0-E7253B094F26}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

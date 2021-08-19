@@ -188,7 +188,10 @@
                 "Component_[6472623349872972660]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 6472623349872972660,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.20000000298023225
+                    }
                 },
                 "Component_[6495255223970673916]": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -276,6 +279,35 @@
                                     "m_id": "{0CF327B4-196D-4A99-BE00-909B028EB825}"
                                 },
                                 "VariableName": "CanMove"
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 7
+                                    },
+                                    "$type": "Transform",
+                                    "value": {
+                                        "Translation": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Rotation": [
+                                            0.0,
+                                            0.0,
+                                            0.0,
+                                            1.0
+                                        ],
+                                        "Scale": 1.0
+                                    }
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{B671F42B-E87A-4CAB-95D2-278D36B3DD20}"
+                                },
+                                "VariableName": "Variable 15"
                             }
                         ]
                     }
@@ -292,6 +324,136 @@
                     "$type": "EditorMaterialComponent",
                     "Id": 8780737921203696658,
                     "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3716062507
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "subId": 3716062507
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                            }
+                        },
                         {
                             "id": {
                                 "materialSlotStableId": 3716062507
@@ -409,6 +571,166 @@
                                     "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
                                 }
                             }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3716062507
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                        "subId": 3716062507
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/shaderball/shaderball_default_1m_shaderball_01_14303245868340256043.azmaterial"
+                                }
+                            }
                         ]
                     ]
                 },
@@ -440,8 +762,8 @@
                             ]
                         },
                         "Capsule": {
-                            "Height": 1.6000001430511475,
-                            "Radius": 0.7999998927116394
+                            "Height": 0.5000100135803223,
+                            "Radius": 0.15000000596046449
                         }
                     }
                 }

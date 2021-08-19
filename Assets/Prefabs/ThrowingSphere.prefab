@@ -121,7 +121,7 @@
                                         "m_type": 3
                                     },
                                     "$type": "double",
-                                    "value": 0.5
+                                    "value": 0.0
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -161,7 +161,7 @@
                         "Angular damping": 0.20000000298023225,
                         "Interpolate Motion": true,
                         "Compute Mass": false,
-                        "Mass": 14.999999046325684,
+                        "Mass": 3.0,
                         "Centre of mass offset": [
                             0.0,
                             0.0,
@@ -171,7 +171,7 @@
                             "roll": 0.0,
                             "pitch": 0.0,
                             "yaw": 0.0,
-                            "scale": 16.666669845581056
+                            "scale": 83.33334350585938
                         }
                     }
                 },
@@ -230,9 +230,9 @@
                         "ShapeType": 0,
                         "Sphere": {
                             "Scale": [
-                                0.20000000298023225,
-                                0.20000000298023225,
-                                0.20000000298023225
+                                0.04000000283122063,
+                                0.04000000283122063,
+                                0.04000000283122063
                             ]
                         },
                         "PhysicsAsset": {

@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "bridge_center_wood",
+            "selectedRootBone": "RootNode",
+            "id": "{99C9E35E-F888-5724-AE71-9A1D0DACEDDF}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{7C2238C3-57EE-5443-85C8-AF3EF96FF789}",
+            "name": "bridge_center_wood",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.bridge_center_wood",
+                    "RootNode.bridge_center_wood.bridge_center_wood_1",
+                    "RootNode.bridge_center_wood.bridge_center_wood_2"
+                ]
+            },
+            "MaterialSlots": [
+                "woodBark",
+                "wood",
+                "stone"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "bridge_center_wood",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.bridge_center_wood",
+                    "RootNode.bridge_center_wood.bridge_center_wood_1",
+                    "RootNode.bridge_center_wood.bridge_center_wood_2"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{531813B1-AB17-58D4-A81A-B44A8E100156}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

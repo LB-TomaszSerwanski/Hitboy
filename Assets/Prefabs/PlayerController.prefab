@@ -121,7 +121,7 @@
                         "Translate": [
                             0.0,
                             12.0,
-                            1.5
+                            0.0
                         ],
                         "Rotate": [
                             -20.0,
@@ -558,7 +558,7 @@
                                         "m_type": 3
                                     },
                                     "$type": "double",
-                                    "value": 5.0
+                                    "value": 1.0
                                 },
                                 "VariableId": {
                                     "m_id": "{DF690242-347F-41D1-AF2A-29AC668A1FBE}"
@@ -588,7 +588,7 @@
                                         "m_type": 3
                                     },
                                     "$type": "double",
-                                    "value": 5.0
+                                    "value": 1.0
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -696,7 +696,10 @@
                 "Component_[8539632537193106112]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 8539632537193106112,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.20000000298023225
+                    }
                 },
                 "Component_[937764776601052097]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -711,6 +714,13 @@
                             "MaterialIds": [
                                 {}
                             ]
+                        },
+                        "MaximumSlopeAngle": 45.0
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Height": 0.5000100135803223,
+                            "Radius": 0.10000000149011612
                         }
                     }
                 }
@@ -728,7 +738,7 @@
                             "Index": 1
                         },
                         "CollisionGroupId": {
-                            "GroupId": "{0C13A6CB-4A87-4EA7-8E7F-751180B9B0C0}"
+                            "GroupId": "{0AC6A2F2-B9BE-4C2A-91E8-84F06A8A4AC1}"
                         },
                         "MaterialSelection": {
                             "MaterialIds": [
@@ -739,6 +749,11 @@
                     "ShapeConfiguration": {
                         "ShapeType": 1,
                         "Box": {
+                            "Scale": [
+                                0.20000000298023225,
+                                0.20000000298023225,
+                                0.20000000298023225
+                            ],
                             "Configuration": [
                                 1.0,
                                 1.0,
@@ -829,16 +844,16 @@
                     "Parent Entity": "Entity_[66342207031764]",
                     "Transform Data": {
                         "Translate": [
-                            1.825249195098877,
-                            0.610076904296875,
-                            2.423584461212158
+                            2.0180702209472658,
+                            0.00801849365234375,
+                            2.4050254821777345
                         ],
                         "Rotate": [
-                            173.57244873046876,
-                            84.64199829101563,
-                            6.455524921417236
+                            89.99996185302735,
+                            -0.601557731628418,
+                            84.67567443847656
                         ],
-                        "UniformScale": 2.0
+                        "UniformScale": 1.5
                     }
                 },
                 "Component_[1142822723726390146]": {
@@ -851,10 +866,17 @@
                     "Target ID": "Entity_[66342207031764]",
                     "Target Bone Name": "upper_armIK_R_end",
                     "Position Offset": [
-                        0.10000000149011612,
-                        -0.8999999761581421,
-                        0.5
-                    ]
+                        0.20000000298023225,
+                        -1.2000000476837159,
+                        1.2000000476837159
+                    ],
+                    "Rotation Offset": [
+                        -90.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Uniform Scale Offset": 1.5,
+                    "Scale Source": 1
                 },
                 "Component_[16688623794480609829]": {
                     "$type": "EditorVisibilityComponent",
