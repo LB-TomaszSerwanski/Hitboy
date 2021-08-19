@@ -1,0 +1,57 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{F5ABDE04-AD9A-5E57-93FE-F90FD491FC2F}",
+            "name": "ground_pathBend",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.ground_pathBend",
+                    "RootNode.ground_pathBend.transform",
+                    "RootNode.ground_pathBend.UV0",
+                    "RootNode.ground_pathBend.dirt",
+                    "RootNode.ground_pathBend.grass",
+                    "RootNode.ground_pathBend.dirtDark"
+                ]
+            },
+            "MaterialSlots": [
+                "dirt",
+                "grass",
+                "dirtDark"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "ground_pathBend",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.ground_pathBend",
+                    "RootNode.ground_pathBend.transform",
+                    "RootNode.ground_pathBend.UV0",
+                    "RootNode.ground_pathBend.dirt",
+                    "RootNode.ground_pathBend.grass",
+                    "RootNode.ground_pathBend.dirtDark"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{82D4D7FD-3D45-5991-9F59-2805C9ECDB37}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}
