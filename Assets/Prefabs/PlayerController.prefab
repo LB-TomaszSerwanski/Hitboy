@@ -715,7 +715,7 @@
                                 {}
                             ]
                         },
-                        "MaximumSlopeAngle": 45.0
+                        "MaximumSlopeAngle": 50.0
                     },
                     "ShapeConfig": {
                         "Capsule": {
