@@ -156,48 +156,25 @@
                                     "Value": 850104567
                                 },
                                 "VariableId": {
-                                    "m_id": "{2E21F853-72E6-4533-9476-77917B563273}"
+                                    "m_id": "{C05DCED1-4576-478E-A69F-ABF2ED6FD5CA}"
                                 },
-                                "VariableName": "FaceHP"
+                                "VariableName": "PlayerFullMap"
                             },
                             {
                                 "Datum": {
                                     "scriptCanvasType": {
-                                        "m_type": 8
+                                        "m_type": 1
                                     },
-                                    "$type": "Vector3",
-                                    "value": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ]
+                                    "$type": "EntityId",
+                                    "value": ""
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
                                 },
                                 "VariableId": {
-                                    "m_id": "{9F68524F-2339-4AEA-A423-90A0209D589D}"
+                                    "m_id": "{95F266EB-4AF9-4675-9926-91D056D362E9}"
                                 },
-                                "VariableName": "PreviousPosition"
-                            },
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 9
-                                    },
-                                    "$type": "Vector2",
-                                    "value": [
-                                        0.0,
-                                        0.0
-                                    ]
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{514E34B2-103B-4B5B-B136-3892DC109763}"
-                                },
-                                "VariableName": "Variable 14"
+                                "VariableName": "PlayerRotate"
                             }
                         ]
                     }

@@ -80052,7 +80052,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/2",
-                    "value": -0.15079021453857423
+                    "value": -0.15079021453857426
                 },
                 {
                     "op": "remove",
@@ -80134,7 +80134,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[755849042375178242]/Transform Data/Translate/1",
-                    "value": -0.25203847885131838
+                    "value": -0.2520384788513184
                 },
                 {
                     "op": "remove",
