@@ -138,6 +138,12 @@
                         "entityId": [
                             [
                                 {
+                                    "m_id": "{1186F4A6-6441-4FF5-9122-DD35CB402292}"
+                                },
+                                ""
+                            ],
+                            [
+                                {
                                     "m_id": "{3BCF0F7F-3799-4E0A-BEA4-21E59DAADF76}"
                                 },
                                 ""
@@ -156,9 +162,26 @@
                                     "Value": 850104567
                                 },
                                 "VariableId": {
+                                    "m_id": "{1186F4A6-6441-4FF5-9122-DD35CB402292}"
+                                },
+                                "VariableName": "BlueSpot",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
                                     "m_id": "{3BCF0F7F-3799-4E0A-BEA4-21E59DAADF76}"
                                 },
-                                "VariableName": "Trigger",
+                                "VariableName": "RedSpot",
                                 "InitialValueSource": 1
                             }
                         ],
@@ -226,22 +249,6 @@
                                     "m_id": "{95F266EB-4AF9-4675-9926-91D056D362E9}"
                                 },
                                 "VariableName": "PlayerRotate"
-                            },
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 1
-                                    },
-                                    "$type": "EntityId",
-                                    "value": ""
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{82B4BEE5-2A74-4D79-BC71-A3672661645B}"
-                                },
-                                "VariableName": "RedSpot"
                             },
                             {
                                 "Datum": {
