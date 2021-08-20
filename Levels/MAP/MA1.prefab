@@ -19150,28 +19150,6 @@
             "Id": "Entity_[192279057073013]",
             "Name": "RedSpot",
             "Components": {
-                "Component_[10775130090046622519]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 10775130090046622519,
-                    "ColliderConfiguration": {
-                        "Trigger": true,
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "ShapeType": 1,
-                        "Box": {
-                            "Scale": [
-                                0.10000000149011612,
-                                0.10000000149011612,
-                                0.10000000149011612
-                            ]
-                        }
-                    }
-                },
                 "Component_[13056226539867362410]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 13056226539867362410
@@ -19180,30 +19158,15 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 1626509723279920125
                 },
-                "Component_[17391339978209344355]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 17391339978209344355,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 285127096
-                                },
-                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
-                            }
-                        }
-                    }
-                },
                 "Component_[17730892553926017220]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 17730892553926017220,
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
-                            -7.719605445861816,
-                            -9.818760871887207,
-                            2.341141700744629
+                            -7.760762691497803,
+                            -9.952113151550293,
+                            2.6000800132751467
                         ],
                         "Rotate": [
                             180.0,
@@ -19217,6 +19180,21 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 4671544384158058005
                 },
+                "Component_[47006645889063496]": {
+                    "$type": "EditorDiskShapeComponent",
+                    "Id": 47006645889063496,
+                    "ShapeColor": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "DiskShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
                 "Component_[523325434602664421]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 523325434602664421
@@ -19228,6 +19206,24 @@
                 "Component_[7720787751017492018]": {
                     "$type": "SelectionComponent",
                     "Id": 7720787751017492018
+                },
+                "Component_[8741973079767216434]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 8741973079767216434,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 2,
+                            "Color": [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            "AttenuationRadius": 14.580808639526368,
+                            "EnableShutters": true,
+                            "InnerShutterAngleDegrees": 2.0,
+                            "OuterShutterAngleDegrees": 18.0
+                        }
+                    }
                 },
                 "Component_[9128117009050259929]": {
                     "$type": "EditorOnlyEntityComponent",
