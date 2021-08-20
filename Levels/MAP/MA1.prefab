@@ -51,6 +51,103 @@
         }
     },
     "Entities": {
+        "Entity_[1008079470746337]": {
+            "Id": "Entity_[1008079470746337]",
+            "Name": "BlueSpot",
+            "Components": {
+                "Component_[11557668224819471151]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11557668224819471151
+                },
+                "Component_[12014321136441290019]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12014321136441290019
+                },
+                "Component_[13616501539352065437]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13616501539352065437
+                },
+                "Component_[16525545848442344642]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16525545848442344642
+                },
+                "Component_[17427693763581288566]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17427693763581288566
+                },
+                "Component_[18297349433481584743]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18297349433481584743
+                },
+                "Component_[2589562439450975220]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2589562439450975220
+                },
+                "Component_[2702574525233343349]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2702574525233343349,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            10.27970027923584,
+                            -5.691428184509277,
+                            1.018239974975586
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[511556742663713321]": {
+                    "$type": "LmbrCentral::EditorQuadShapeComponent",
+                    "Id": 511556742663713321,
+                    "DisplayFilled": false,
+                    "ShapeColor": [
+                        0.007263294421136379,
+                        0.0,
+                        0.9243610501289368,
+                        1.0
+                    ],
+                    "QuadShape": {
+                        "Configuration": {
+                            "IsFilled": false,
+                            "Width": 0.550000011920929,
+                            "Height": 0.3999999761581421
+                        }
+                    }
+                },
+                "Component_[5659953137003601709]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5659953137003601709
+                },
+                "Component_[6949757492550630159]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 6949757492550630159,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 4,
+                            "Color": [
+                                0.007263294421136379,
+                                0.0,
+                                0.9243610501289368
+                            ],
+                            "IntensityMode": 3,
+                            "Intensity": 90.0,
+                            "AttenuationRadius": 6.5172438621521,
+                            "EnableShutters": true,
+                            "InnerShutterAngleDegrees": 2.0,
+                            "OuterShutterAngleDegrees": 14.0
+                        }
+                    }
+                },
+                "Component_[8498299927599082189]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8498299927599082189
+                }
+            }
+        },
         "Entity_[109414407301297]": {
             "Id": "Entity_[109414407301297]",
             "Name": "Waypoints",
@@ -19046,6 +19143,103 @@
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
                     }
+                }
+            }
+        },
+        "Entity_[192279057073013]": {
+            "Id": "Entity_[192279057073013]",
+            "Name": "RedSpot",
+            "Components": {
+                "Component_[10775130090046622519]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 10775130090046622519,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.10000000149011612,
+                                0.10000000149011612,
+                                0.10000000149011612
+                            ]
+                        }
+                    }
+                },
+                "Component_[13056226539867362410]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13056226539867362410
+                },
+                "Component_[1626509723279920125]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1626509723279920125
+                },
+                "Component_[17391339978209344355]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17391339978209344355,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                    "subId": 285127096
+                                },
+                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17730892553926017220]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17730892553926017220,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -7.719605445861816,
+                            -9.818760871887207,
+                            2.341141700744629
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 0.10000000149011612
+                    }
+                },
+                "Component_[4671544384158058005]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4671544384158058005
+                },
+                "Component_[523325434602664421]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 523325434602664421
+                },
+                "Component_[5894623056214145526]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5894623056214145526
+                },
+                "Component_[7720787751017492018]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7720787751017492018
+                },
+                "Component_[9128117009050259929]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9128117009050259929
+                },
+                "Component_[9439727659789833380]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9439727659789833380
+                },
+                "Component_[9490132271102987758]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9490132271102987758
                 }
             }
         },
