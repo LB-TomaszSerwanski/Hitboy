@@ -138,12 +138,47 @@
                         "entityId": [
                             [
                                 {
-                                    "m_id": "{55262428-650E-4D9F-B9E4-1EC84B88C8B0}"
+                                    "m_id": "{3BCF0F7F-3799-4E0A-BEA4-21E59DAADF76}"
                                 },
                                 ""
                             ]
                         ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{3BCF0F7F-3799-4E0A-BEA4-21E59DAADF76}"
+                                },
+                                "VariableName": "Trigger",
+                                "InitialValueSource": 1
+                            }
+                        ],
                         "overridesUnused": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{96FD2CF3-8656-44B3-8001-73F948F27D74}"
+                                },
+                                "VariableName": "Entity2 [15572530031562341577]"
+                            },
                             {
                                 "Datum": {
                                     "scriptCanvasType": {
@@ -172,9 +207,57 @@
                                     "Value": 850104567
                                 },
                                 "VariableId": {
+                                    "m_id": "{BF7238DD-E23A-4BA2-9CAC-DBF6BAD4DDA2}"
+                                },
+                                "VariableName": "PlayerRaycastTarget [4325739324869479392]"
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
                                     "m_id": "{95F266EB-4AF9-4675-9926-91D056D362E9}"
                                 },
                                 "VariableName": "PlayerRotate"
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{82B4BEE5-2A74-4D79-BC71-A3672661645B}"
+                                },
+                                "VariableName": "RedSpot"
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{FF198AD0-F584-468D-BD40-AE73145D28C9}"
+                                },
+                                "VariableName": "Sniper spot [8263580111222128980]"
                             }
                         ]
                     }

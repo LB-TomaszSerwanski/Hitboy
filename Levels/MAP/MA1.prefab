@@ -67,6 +67,22 @@
                     "$type": "EditorInspectorComponent",
                     "Id": 13616501539352065437
                 },
+                "Component_[15246765156476014993]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15246765156476014993,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "InSceneQueries": false,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1
+                    }
+                },
                 "Component_[16525545848442344642]": {
                     "$type": "SelectionComponent",
                     "Id": 16525545848442344642
@@ -91,7 +107,7 @@
                         "Translate": [
                             10.27970027923584,
                             -5.691428184509277,
-                            1.018239974975586
+                            1.0427204370498658
                         ],
                         "Rotate": [
                             180.0,
@@ -2185,8 +2201,8 @@
                     "Parent Entity": "Entity_[120946394491057]",
                     "Transform Data": {
                         "Translate": [
-                            -0.6172142028808594,
-                            -5.31433629989624,
+                            0.04551267623901367,
+                            -5.97945499420166,
                             0.23911511898040772
                         ]
                     }
@@ -19236,6 +19252,34 @@
                 "Component_[9490132271102987758]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 9490132271102987758
+                },
+                "Component_[9490308714697204597]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 9490308714697204597,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "InSceneQueries": false,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.10000000149011612,
+                                0.10000000149011612,
+                                0.10000000149011612
+                            ],
+                            "Configuration": [
+                                5.0,
+                                5.0,
+                                6.0
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -60499,7 +60543,7 @@
         },
         "Entity_[63897497855627]": {
             "Id": "Entity_[63897497855627]",
-            "Name": "Part1_AI",
+            "Name": "Part1_AI_Bridge",
             "Components": {
                 "Component_[10785953669834044010]": {
                     "$type": "EditorVisibilityComponent",
